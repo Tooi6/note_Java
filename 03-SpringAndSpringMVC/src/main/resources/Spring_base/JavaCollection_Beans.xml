@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+    <bean id="javaCollection" class="com.Tooi.Spring_base.JavaCollection.JavaCollection">
+        <property name="addressList">
+            <list>
+                <value>China</value>
+                <value>fujian</value>
+                <value>USA</value>
+            </list>
+        </property>
+        <property name="addressSet">
+            <set>
+                <value>China</value>
+                <value>fujian</value>
+                <value>USA</value>
+            </set>
+        </property>
+        <property name="addressMap">
+            <map>
+                <entry key="1" value="China"/>
+                <entry key="2" value="fujian"/>
+                <entry key="3" value="USA"/>
+            </map>
+        </property>
+        <property name="addressProp">
+            <props>
+                <prop key="one">China</prop>
+                <prop key="two">fujian</prop>
+                <prop key="three">USA</prop>
+            </props>
+        </property>
+    </bean>
+</beans>

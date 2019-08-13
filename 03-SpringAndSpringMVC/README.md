@@ -13,6 +13,8 @@
 - ##### 面向切面的程序设计（AOP）
 > 面向切面编程（AOP）完善spring的依赖注入（DI），在 OOP 中模块化的关键单元是**类**，而在 AOP 中模块化的关键单元是**方面**。AOP 帮助你将**横切关注点从它们所影响的对象中分离出来**，然而**依赖注入帮助你将你的应用程序对象从彼此中分离出来**
 
+***
+
 #### 1、Spring体系结构 
 ![image](https://note.youdao.com/yws/api/personal/file/02239BE863C348388929B3CA3E18C5C8?method=download&shareKey=b2d1d0a2086dd692cef86c648e094f64)
 - **spring-core：** 框架的基本组成部分，包括IOC和依赖注入的功能
@@ -51,5 +53,210 @@
 - **1、Bean的作用域：**  
 ![image](https://note.youdao.com/yws/api/personal/file/9B97E90BD44B4B6594847A71543AC53B?method=download&shareKey=9c37e27c9d426fd8f10063a88071ba9e)
 - **2、Bean的生命周期：**  
-> Bean的生命周期可以表达为：Bean的定义——Bean的初始化——Bean的使用——Bean的销毁 
-- 
+> Bean的生命周期可以表达为：Bean的定义——Bean的初始化——Bean的使用——Bean的销毁   
+```
+## 指定bean的init和destory方法
+<bean id="helloWorld"  class="com.tutorialspoint.HelloWorld" 
+    init-method="init" destroy-method="destroy">
+   <property name="message" value="Hello World!"/>
+</bean>
+
+## 默认的init和destory方法
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd"
+    default-init-method="init" 
+    default-destroy-method="destroy">
+    ...
+</beans>
+```
+- **Bean 后置处理器**
+> Bean 后置处理器允许在调用初始化方法前后对 Bean 进行额外的处理。通过继承org.springframework.beans.factory.config.BeanPostProcessor类来实现  
+**ApplicationContext 会自动检测由 BeanPostProcessor 接口的实现定义的 bean，注册这些 bean 为后置处理器，然后通过在容器中创建 bean，在适当的时候调用它。**
+
+```
+import org.springframework.beans.factory.config.BeanPostProcessor;
+import org.springframework.beans.BeansException;
+public class InitHelloWorld implements BeanPostProcessor {
+   public Object postProcessBeforeInitialization(Object bean, String beanName) throws BeansException {
+      System.out.println("BeforeInitialization : " + beanName);
+      return bean;  // you can return any other object as well
+   }
+   public Object postProcessAfterInitialization(Object bean, String beanName) throws BeansException {
+      System.out.println("AfterInitialization : " + beanName);
+      return bean;  // you can return any other object as well
+   }
+}
+```
+- **Bean 定义继承**
+> 你可以定义一个父 bean 的定义作为模板和其他子 bean 就可以从父 bean 中继承所需的配置。
+
+```
+<bean id="helloWorld" class="com.tutorialspoint.HelloWorld">
+  <property name="message1" value="Hello World!"/>
+  <property name="message2" value="Hello Second World!"/>
+</bean>
+
+<bean id="helloIndia" class="com.tutorialspoint.HelloIndia" parent="helloWorld">
+  <property name="message1" value="Hello India!"/>
+  <property name="message3" value="Namaste India!"/>
+</bean>
+```
+- **Bean 定义模板**
+> 你可以创建一个 Bean 定义模板，不需要花太多功夫它就可以被其他子 bean 定义使用。在定义一个 Bean 定义模板时，你不应该指定类的属性，而应该指定带 true 值的抽象属性
+
+```
+<bean id="beanTeamplate" abstract="true">
+  <property name="message1" value="Hello World!"/>
+  <property name="message2" value="Hello Second World!"/>
+  <property name="message3" value="Namaste India!"/>
+</bean>
+
+<bean id="helloIndia" class="com.tutorialspoint.HelloIndia" parent="beanTeamplate">
+  <property name="message1" value="Hello India!"/>
+  <property name="message3" value="Namaste India!"/>
+</bean>
+```
+> 父 bean 自身不能被实例化，因为它是不完整的，而且它也被明确地标记为抽象的。当一个定义是抽象的，它仅仅作为一个纯粹的模板 bean 定义来使用的，充当子定义的父定义使用。
+
+***
+
+### 3、Spring 依赖注入
+> Spring框架的核心功能之一就是通过依赖注入的方式来管理Bean之间的依赖关系。
+
+> 依赖注入主要有两种变形：**基于构造函数**、**基于setter方法**
+#### 基于构造函数
+
+```
+<!-- Definition for textEditor bean -->
+<bean id="textEditor" class="com.tutorialspoint.TextEditor">
+  <constructor-arg ref="spellChecker"/>
+  <constructor-arg type="java.lang.String" value="Zara"/>
+  <constructor-arg index="2" value="2019"/>
+</bean>
+
+<!-- Definition for spellChecker bean -->
+<bean id="spellChecker" class="com.tutorialspoint.SpellChecker">
+</bean>
+```
+#### 基于setter方法
+
+```
+<!-- Definition for textEditor bean -->
+<bean id="textEditor" class="com.tutorialspoint.TextEditor">
+  <property name="spellChecker" ref="spellChecker"/>
+</bean>
+
+<!-- Definition for spellChecker bean -->
+<bean id="spellChecker" class="com.tutorialspoint.SpellChecker">
+</bean>
+
+## 也可使用p-namespace的方式
+<bean id="john-classic" class="com.example.Person"
+  p:name="John Doe"
+  p:spouse-ref="jane"/>
+</bean>
+
+<bean name="jane" class="com.example.Person"
+  p:name="John Doe"/>
+</bean>
+```
+#### 注入内部Bean
+
+```
+<!-- Definition for textEditor bean using inner bean -->
+<bean id="textEditor" class="com.tutorialspoint.TextEditor">
+  <property name="spellChecker">
+     <bean id="spellChecker" class="com.tutorialspoint.SpellChecker"/>
+   </property>
+</bean>
+```
+#### 注入集合
+
+```
+<!-- Bean Definition to handle references and values -->
+<bean id="..." class="...">
+
+  <!-- Passing bean reference  for java.util.List -->
+  <property name="addressList">
+     <list>
+        <ref bean="address1"/>
+        <ref bean="address2"/>
+        <value>Pakistan</value>
+     </list>
+  </property>
+
+  <!-- Passing bean reference  for java.util.Set -->
+  <property name="addressSet">
+     <set>
+        <ref bean="address1"/>
+        <ref bean="address2"/>
+        <value>Pakistan</value>
+     </set>
+  </property>
+
+  <!-- Passing bean reference  for java.util.Map -->
+  <property name="addressMap">
+     <map>
+        <entry key="one" value="INDIA"/>
+        <entry key ="two" value-ref="address1"/>
+        <entry key ="three" value-ref="address2"/>
+     </map>
+  </property>
+
+</bean>
+```
+
+***
+
+### 4、Spring Beans自动装配
+> 可以使用<bean>元素的 autowire 属性为一个 bean 定义指定自动装配模式
+- byName
+- byType
+- constructor
+- autodetect
+
+***
+
+### 5、Spring 基于注解的配置
+> 注解连线在默认情况下在 Spring 容器中不打开。因此，在可以使用基于注解的连线之前，我们将需要在我们的 Spring 配置文件中启用它  
+
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+    <!-- 启用Spring注解 -->
+   <context:annotation-config/>
+   
+</beans>
+```
+- **@Required**
+> 它表明受影响的 bean 属性在配置时必须放在 XML 配置文件中
+- **@Autowired**
+> 自动连接 bean,可以用在setter方法、属性、构造方法中
+- **@Qualifier**
+> 指定装配时使用哪一个bean
+- **@Configuration**  
+> 带有 @Configuration 的注解类表示这个类可以使用 Spring IoC 容器作为 bean 定义的来源
+
+```
+@Configuration
+public class HelloWorldConfig {
+   @Bean 
+   public HelloWorld helloWorld(){
+      return new HelloWorld();
+   }
+}
+```
+- **@import**
+> 允许从另一个配置类中加载 @Bean 定义
+
+#### Spring 中的事件处理  
+![image](https://note.youdao.com/yws/api/personal/file/042325A5BF2A4AF89F44A076DCBC9A9B?method=download&shareKey=5f0c3a35b7252d290af44ef2e142d152)
