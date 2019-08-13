@@ -1,4 +1,4 @@
 ### 个人Java学习笔记
-- #### Java代码规范
-- #### Git & Github
-- #### Spring & SpringMVC
+- #### 01-Java代码规范
+- #### 02-Git & Github
+- #### 03-Spring & SpringMVC
