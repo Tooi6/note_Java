@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/03-SpringAndSpringMVC/03-SpringAndSpringMVC.iml" filepath="$PROJECT_DIR$/03-SpringAndSpringMVC/03-SpringAndSpringMVC.iml" />
       <module fileurl="file://$PROJECT_DIR$/note_Java.iml" filepath="$PROJECT_DIR$/note_Java.iml" />
     </modules>
   </component>
