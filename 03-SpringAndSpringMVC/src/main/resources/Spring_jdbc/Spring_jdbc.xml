@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+    <bean class="org.springframework.jdbc.datasource.DriverManagerDataSource" id="dataSource">
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+        <property name="url" value="jdbc:mysql://123.207.58.206:3306/note_Java"/>
+        <property name="username" value="root"/>
+        <property name="password" value="aD#m2fG^"/>
+    </bean>
+
+    <bean class="com.Tooi.Spring_jdbc.StudentJDBCTemplate" id="studentJDBCTemplate">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+</beans>
