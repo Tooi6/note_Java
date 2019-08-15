@@ -1,29 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="03-SpringAndSpringMVC:war" />
+      <artifact name="03-SpringAndSpringMVC:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="1c54c99c-29a6-4e75-9f1e-86ab5938b295" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_AOP/Logging/Logging.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_AOP/Logging/Logging2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_AOP/Logging/MainApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_AOP/Logging/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_Transaction/MainApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_Transaction/StudentDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_Transaction/StudentJDBCTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_Transaction/StudentMarks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_Transaction/StudentMarksMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_jdbc/MainApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_jdbc/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_jdbc/StudentDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_jdbc/StudentJDBCTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_jdbc/StudentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/resources/Spring_AOP/Logging.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/resources/Spring_AOP/Logging2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/resources/Spring_Transaction/Spring_Transaction.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/resources/Spring_jdbc/Spring_jdbc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_MVC/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_MVC/SpringException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_MVC/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_MVC/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_MVC/WebController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_log4jDemo/HelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_log4jDemo/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/resources/Spring_log/Spring_log.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/webapp/WEB-INF/helloWeb-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/webapp/WEB-INF/jsp/ExceptionPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/webapp/WEB-INF/jsp/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/webapp/WEB-INF/jsp/final.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/webapp/WEB-INF/jsp/hello.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/webapp/WEB-INF/jsp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/webapp/WEB-INF/jsp/result.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/webapp/WEB-INF/jsp/student.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/webapp/WEB-INF/pages/staticPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/03-SpringAndSpringMVC/03-SpringAndSpringMVC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/03-SpringAndSpringMVC/03-SpringAndSpringMVC.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/03-SpringAndSpringMVC/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/03-SpringAndSpringMVC/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/03-SpringAndSpringMVC/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/03-SpringAndSpringMVC/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/webapp/index.jsp" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".idea/" />
@@ -44,47 +53,85 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_log4jDemo/HelloWorld.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+              <folding>
+                <element signature="e#152#153#0" expanded="true" />
+                <element signature="e#198#199#0" expanded="true" />
+                <element signature="e#236#237#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_log4jDemo/MainApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="61" selection-start-line="13" selection-start-column="61" selection-end-line="13" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/webapp/WEB-INF/helloWeb-servlet.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="309">
+              <caret line="35" column="8" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/resources/Spring_Transaction/Spring_Transaction.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="384">
+                <caret line="392" column="3" selection-start-line="392" selection-start-column="3" selection-end-line="392" selection-end-column="3" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_Transaction/MainApp.java">
+        <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_base/helloworld/MainApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="32" column="75" selection-start-line="32" selection-start-column="75" selection-end-line="32" selection-end-column="75" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="62">
+              <caret line="46" column="114" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="114" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_Transaction/StudentDAO.java">
+        <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/resources/Spring_log/Spring_log.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="152">
+              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_Transaction/StudentJDBCTemplate.java">
+        <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/resources/log4j.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="67">
-              <caret line="14" column="57" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="57" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="114">
+              <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -96,6 +143,8 @@
       <list>
         <option value="Aspect" />
         <option value="Interface" />
+        <option value="HTML File" />
+        <option value="Jsp File" />
         <option value="Class" />
       </list>
     </option>
@@ -116,24 +165,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/HelloWorld.java" />
-        <option value="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/helloworld/InitHelloWorld.java" />
-        <option value="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/helloworld/MainApp.java" />
-        <option value="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/helloworld/HelloWorld.java" />
-        <option value="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/resources/Beans.xml" />
-        <option value="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_base/TextEditor/SpellChecker.java" />
-        <option value="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_base/TextEditor/TextEditor.java" />
-        <option value="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/resources/Spring_base/textEditor_Beans.xml" />
-        <option value="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_base/TextEditor/MainApp.java" />
-        <option value="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_base/JavaCollection/JavaCollection.java" />
-        <option value="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/resources/Spring_base/JavaCollection_Beans.xml" />
-        <option value="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_base/JavaCollection/MainApp.java" />
-        <option value="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_base/Student/Student.java" />
-        <option value="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/resources/Spring_base/student_Beans.xml" />
-        <option value="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_base/helloworld/HelloWorldConfig.java" />
-        <option value="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_base/helloworld/MainApp.java" />
-        <option value="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_base/evenHandler/HelloWorld.java" />
         <option value="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_base/evenHandler/CStartEventHandler.java" />
         <option value="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_base/evenHandler/CStopEventHandler.java" />
         <option value="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/resources/Spring_base/evenHandler_Beans.xml" />
@@ -143,7 +174,6 @@
         <option value="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_base/CustomEvent/CustomEventHandler.java" />
         <option value="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/resources/Spring_base/customEvent_Beans.xml" />
         <option value="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_base/CustomEvent/MainApp.java" />
-        <option value="$PROJECT_DIR$/03-SpringAndSpringMVC/README.md" />
         <option value="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_AOP/Logging/Student.java" />
         <option value="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_AOP/Logging/Logging.java" />
         <option value="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/resources/Spring_AOP/Logging.xml" />
@@ -156,16 +186,45 @@
         <option value="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_jdbc/StudentJDBCTemplate.java" />
         <option value="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/resources/Spring_jdbc/Spring_jdbc.xml" />
         <option value="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_jdbc/MainApp.java" />
-        <option value="$PROJECT_DIR$/03-SpringAndSpringMVC/pom.xml" />
         <option value="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_Transaction/StudentMarks.java" />
         <option value="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_Transaction/StudentMarksMapper.java" />
         <option value="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_Transaction/StudentJDBCTemplate.java" />
         <option value="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_Transaction/StudentDAO.java" />
         <option value="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_Transaction/StudentJDBCTemplate2.java" />
-        <option value="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_Transaction/MainApp.java" />
         <option value="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/resources/Spring_Transaction/Spring_Transaction.xml" />
+        <option value="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_Transaction/MainApp.java" />
+        <option value="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/webapp/WEB-INF/HelloWeb-servlet.xml" />
+        <option value="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/webapp/WEB-INF/jsp/hello.jsp" />
+        <option value="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/resources/Spring_MVC/helloWeb-servlet.xml" />
+        <option value="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_MVC/HelloController.java" />
+        <option value="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_MVC/Student.java" />
+        <option value="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/webapp/WEB-INF/jsp/result.jsp" />
+        <option value="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/webapp/WEB-INF/jsp/student.jsp" />
+        <option value="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/webapp/WEB-INF/jsp/final.jsp" />
+        <option value="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/webapp/WEB-INF/jsp/index.jsp" />
+        <option value="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/webapp/WEB-INF/pages/staticPage.html" />
+        <option value="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_MVC/WebController.java" />
+        <option value="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_MVC/SpringException.java" />
+        <option value="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/webapp/WEB-INF/helloWeb-servlet.xml" />
+        <option value="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/webapp/WEB-INF/jsp/error.jsp" />
+        <option value="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/webapp/WEB-INF/jsp/ExceptionPage.jsp" />
+        <option value="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_MVC/StudentController.java" />
+        <option value="$PROJECT_DIR$/03-SpringAndSpringMVC/pom.xml" />
+        <option value="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_log4jDemo/HelloWorld.java" />
+        <option value="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/resources/Spring_log4jDemo/Spring_log4jDemo" />
+        <option value="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_log4jDemo/MainApp.java" />
+        <option value="$PROJECT_DIR$/03-SpringAndSpringMVC/README.md" />
       </list>
     </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -192,16 +251,16 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1087" />
-    <option name="y" value="3" />
-    <option name="width" value="979" />
-    <option name="height" value="1040" />
+    <option name="x" value="952" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -263,7 +322,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="Tooi" type="462c0819:PsiDirectoryNode" />
-              <item name="Spring_jdbc" type="462c0819:PsiDirectoryNode" />
+              <item name="Spring_base" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="note_Java" type="b2602c69:ProjectViewProjectNode" />
@@ -274,7 +333,19 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="Tooi" type="462c0819:PsiDirectoryNode" />
-              <item name="Spring_Transaction" type="462c0819:PsiDirectoryNode" />
+              <item name="Spring_base" type="462c0819:PsiDirectoryNode" />
+              <item name="helloworld" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="note_Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="note_Java" type="462c0819:PsiDirectoryNode" />
+              <item name="03-SpringAndSpringMVC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="Tooi" type="462c0819:PsiDirectoryNode" />
+              <item name="Spring_log4jDemo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="note_Java" type="b2602c69:ProjectViewProjectNode" />
@@ -291,7 +362,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="Spring_jdbc" type="462c0819:PsiDirectoryNode" />
+              <item name="Spring_log" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="note_Java" type="b2602c69:ProjectViewProjectNode" />
@@ -299,33 +370,50 @@
               <item name="03-SpringAndSpringMVC" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="Spring_Transaction" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="note_Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="note_Java" type="462c0819:PsiDirectoryNode" />
+              <item name="03-SpringAndSpringMVC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/note_Java.iml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/webapp" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.25175527" />
     <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\IdeaProjects\note_Java\03-SpringAndSpringMVC\src\main\webapp" />
+      <recent name="D:\work\IdeaProjects\note_Java\03-SpringAndSpringMVC\src\main\resources" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.Tooi.Spring_Transaction" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\work\IdeaProjects\note_Java\03-SpringAndSpringMVC\src\main\webapp\WEB-INF" />
+      <recent name="D:\work\IdeaProjects\note_Java\03-SpringAndSpringMVC\src\main\resources\Spring_MVC" />
       <recent name="D:\work\IdeaProjects\note_Java\03-SpringAndSpringMVC\src\main\resources\Spring_base" />
     </key>
   </component>
@@ -341,7 +429,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MainApp (2)">
+  <component name="RunManager" selected="Application.MainApp (3)">
     <configuration name="MainApp (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Tooi.Spring_jdbc.MainApp" />
       <module name="03-SpringAndSpringMVC" />
@@ -368,12 +456,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainApp (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Tooi.Spring_base.evenHandler.MainApp" />
+    <configuration name="MainApp (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Tooi.Spring_log4jDemo.MainApp" />
       <module name="03-SpringAndSpringMVC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Tooi.Spring_base.evenHandler.*" />
+          <option name="PATTERN" value="com.Tooi.Spring_log4jDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -407,13 +495,170 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Tomcat 9.0.20" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.20" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/note_Java/03_SpringAndSpringMVC" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="03-SpringAndSpringMVC:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="note_Java/03_SpringAndSpringMVC" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_9_0_20_note_Java" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="58136" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="03-SpringAndSpringMVC:war" />
+          <artifact name="03-SpringAndSpringMVC:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.20" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/03_SpringAndSpringMVC/" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="03-SpringAndSpringMVC:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/03_SpringAndSpringMVC_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_note_Java" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="58136" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="03-SpringAndSpringMVC:war" />
+          <artifact name="03-SpringAndSpringMVC:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.MainApp" />
+      <item itemvalue="Application.MainApp (1)" />
+      <item itemvalue="Application.MainApp (2)" />
+      <item itemvalue="Application.MainApp (5)" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.20" />
+      <item itemvalue="Application.MainApp (3)" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainApp (3)" />
         <item itemvalue="Application.MainApp (2)" />
         <item itemvalue="Application.MainApp (1)" />
         <item itemvalue="Application.MainApp" />
         <item itemvalue="Application.MainApp (5)" />
-        <item itemvalue="Application.MainApp (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -430,7 +675,8 @@
       <workItem from="1565658405874" duration="7283000" />
       <workItem from="1565680647915" duration="9523000" />
       <workItem from="1565696705308" duration="213000" />
-      <workItem from="1565747423888" duration="12752000" />
+      <workItem from="1565747423888" duration="12928000" />
+      <workItem from="1565854671655" duration="14602000" />
     </task>
     <task id="LOCAL-00001" summary="8-13,初始化项目，根目录添加README.md">
       <created>1565658773463</created>
@@ -474,17 +720,24 @@
       <option name="project" value="LOCAL" />
       <updated>1565696830746</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="8-13,更新，03-Spring &amp; SpringMVC（Spring 事务管理）">
+      <created>1565787319752</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1565787319752</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29771000" />
+    <option name="totallyTimeSpent" value="44549000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.49597856" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2124665" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -492,18 +745,19 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Application Servers" weight="0.3252149" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32577905" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30028328" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.33002833" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5155807" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.43632707" side_tool="true" weight="0.31161472" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.31857142" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" weight="0.42492917" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.28611898" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.5636729" weight="0.31161472" />
@@ -518,7 +772,7 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.49655172" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3900415" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -526,21 +780,22 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32577905" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32142857" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.43632707" side_tool="true" weight="0.31161472" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3186969" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" />
-      <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.5636729" weight="0.31161472" />
+      <window_info anchor="bottom" id="Application Servers" order="0" weight="0.3252149" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32577905" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49932975" weight="0.22946176" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.5155807" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067025" side_tool="true" weight="0.42492917" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.054441262" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" sideWeight="0.5636729" weight="0.31161472" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -610,256 +865,10 @@
     <MESSAGE value="8-13,初始化项目，根目录修改README.md" />
     <MESSAGE value="8-13,更新，03-Spring &amp; SpringMVC（Bean的生命周期）" />
     <MESSAGE value="8-13,更新，03-Spring &amp; SpringMVC（Spring 中的事件处理）" />
-    <option name="LAST_COMMIT_MESSAGE" value="8-13,更新，03-Spring &amp; SpringMVC（Spring 中的事件处理）" />
+    <MESSAGE value="8-13,更新，03-Spring &amp; SpringMVC（Spring 事务管理）" />
+    <option name="LAST_COMMIT_MESSAGE" value="8-13,更新，03-Spring &amp; SpringMVC（Spring 事务管理）" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.1.6.RELEASE/spring-context-4.1.6.RELEASE.jar!/org/springframework/context/support/FileSystemXmlApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#1779#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.1.6.RELEASE/spring-context-4.1.6.RELEASE.jar!/org/springframework/context/support/AbstractXmlApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.1.6.RELEASE/spring-context-4.1.6.RELEASE.jar!/org/springframework/context/support/ClassPathXmlApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="13" column="68" selection-start-line="13" selection-start-column="68" selection-end-line="13" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_base/helloworld/InitHelloWorld.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/helloworld/HelloWorld_Father.java" />
-    <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_base/helloworld/HelloWorld.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="39" selection-start-column="8" selection-end-column="39" />
-          <folding>
-            <element signature="e#116#117#0" expanded="true" />
-            <element signature="e#146#147#0" expanded="true" />
-            <element signature="e#192#193#0" expanded="true" />
-            <element signature="e#230#231#0" expanded="true" />
-            <element signature="e#254#255#0" expanded="true" />
-            <element signature="e#319#320#0" expanded="true" />
-            <element signature="e#346#347#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_base/TextEditor/SpellChecker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="29" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="29" />
-          <folding>
-            <element signature="e#95#96#0" expanded="true" />
-            <element signature="e#165#166#0" expanded="true" />
-            <element signature="e#198#199#0" expanded="true" />
-            <element signature="e#234#235#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_base/TextEditor/TextEditor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-          <folding>
-            <element signature="e#293#294#0" expanded="true" />
-            <element signature="e#337#338#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_base/TextEditor/MainApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="35" lean-forward="true" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/resources/Spring_base/textEditor_Beans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="82" selection-start-line="9" selection-start-column="82" selection-end-line="9" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_base/JavaCollection/JavaCollection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
-            <element signature="e#429#430#0" expanded="true" />
-            <element signature="e#545#546#0" expanded="true" />
-            <element signature="e#589#590#0" expanded="true" />
-            <element signature="e#705#706#0" expanded="true" />
-            <element signature="e#749#750#0" expanded="true" />
-            <element signature="e#883#884#0" expanded="true" />
-            <element signature="e#929#930#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/resources/Spring_base/JavaCollection_Beans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_base/JavaCollection/MainApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_base/Student/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding>
-            <element signature="e#141#142#0" expanded="true" />
-            <element signature="e#167#168#0" expanded="true" />
-            <element signature="e#206#207#0" expanded="true" />
-            <element signature="e#236#237#0" expanded="true" />
-            <element signature="e#267#268#0" expanded="true" />
-            <element signature="e#294#295#0" expanded="true" />
-            <element signature="e#334#335#0" expanded="true" />
-            <element signature="e#366#367#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/resources/Spring_base/student_Beans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_base/helloworld/HelloWorldConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#190#191#0" expanded="true" />
-            <element signature="e#228#229#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_base/helloworld/MainApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="57" column="5" lean-forward="true" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_base/evenHandler/CStartEventHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_base/evenHandler/CStopEventHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="56" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/resources/Spring_base/evenHandler_Beans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="76" selection-start-line="8" selection-start-column="76" selection-end-line="8" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_base/evenHandler/HelloWorld.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding>
-            <element signature="e#139#140#0" expanded="true" />
-            <element signature="e#178#179#0" expanded="true" />
-            <element signature="e#208#209#0" expanded="true" />
-            <element signature="e#271#272#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_base/evenHandler/MainApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_base/CustomEvent/CustomEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <element signature="e#187#188#0" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-            <element signature="e#286#287#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_base/CustomEvent/CustomEventPublisher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#382#383#0" expanded="true" />
-            <element signature="e#422#423#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_base/CustomEvent/MainApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -898,23 +907,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="313">
-            <caret line="246" column="24" selection-start-line="246" selection-start-column="24" selection-end-line="246" selection-end-column="24" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_AOP/Logging/Logging2.aj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_AOP/Logging/Logging2.aj" />
     <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_AOP/Logging/Logging.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -1023,13 +1016,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="149" column="17" selection-start-line="149" selection-start-column="17" selection-end-line="149" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_jdbc/MainApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -1068,16 +1054,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="10" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_Transaction/StudentJDBCTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="14" column="57" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1123,38 +1099,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_Transaction/StudentDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_Transaction/MainApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="32" column="75" selection-start-line="32" selection-start-column="75" selection-end-line="32" selection-end-column="75" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_Transaction/StudentJDBCTemplate2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#291#292#0" expanded="true" />
-            <element signature="e#348#349#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_Transaction/StudentJDBCTemplate2.java" />
     <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/resources/Spring_Transaction/Spring_Transaction.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -1162,9 +1107,327 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_Transaction/MainApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_Transaction/StudentDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_Transaction/StudentJDBCTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="14" column="57" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/webapp/WEB-INF/jsp/hello.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/resources/helloWeb-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/resources/Spring_MVC/helloWeb-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_MVC/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/webapp/WEB-INF/jsp/final.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/webapp/WEB-INF/pages/staticPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_MVC/WebController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#152#153#0" expanded="true" />
+            <element signature="e#176#177#0" expanded="true" />
+            <element signature="e#471#472#0" expanded="true" />
+            <element signature="e#514#515#0" expanded="true" />
+            <element signature="e#617#618#0" expanded="true" />
+            <element signature="e#641#642#0" expanded="true" />
+            <element signature="e#619#620#0" expanded="true" />
+            <element signature="e#644#645#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/webapp/WEB-INF/jsp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/webapp/WEB-INF/jsp/result.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_MVC/SpringException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <folding>
+            <element signature="e#168#169#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_MVC/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <folding>
+            <element signature="e#156#157#0" expanded="true" />
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/webapp/WEB-INF/jsp/student.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="36" column="7" lean-forward="true" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/webapp/WEB-INF/jsp/error.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/webapp/WEB-INF/jsp/ExceptionPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.1.6.RELEASE/spring-webmvc-4.1.6.RELEASE.jar!/org/springframework/web/servlet/handler/SimpleMappingExceptionResolver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="24" column="50" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_MVC/StudentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="30" column="58" lean-forward="true" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="152" column="30" selection-start-line="152" selection-start-column="30" selection-end-line="152" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_log4jDemo/HelloWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+          <folding>
+            <element signature="e#152#153#0" expanded="true" />
+            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#236#237#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/resources/Spring_log/Spring_log.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_base/helloworld/MainApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="46" column="114" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/java/com/Tooi/Spring_log4jDemo/MainApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="61" selection-start-line="13" selection-start-column="61" selection-end-line="13" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/webapp/WEB-INF/helloWeb-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="35" column="8" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-SpringAndSpringMVC/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="384">
+            <caret line="392" column="3" selection-start-line="392" selection-start-column="3" selection-end-line="392" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>03-SpringAndSpringMVC:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.25175527" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web (03-SpringAndSpringMVC)|Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.25175527" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>note_Java</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.25175527" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
@@ -1172,6 +1435,18 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.25175527" />
               </list>
             </option>
           </splitter-proportions>

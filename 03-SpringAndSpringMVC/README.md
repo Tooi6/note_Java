@@ -341,5 +341,53 @@ public class Logging2 {
 </bean>
 ```
 #### 8、Spring 事务管理
-> 一个数据库事务是一个被视为单一的工作单元的操作序列。这些操作应该要么完整地执行，要么完全不执行  
+> Spring并不直接管理事务，而是提供了多种事务管理器，他们将事务管理的职责委托给Hibernate或者JTA等持久化机制所提供的相关平台框架的事务来实现。   
+Spring事务管理器的接口是org.springframework.transaction.PlatformTransactionManager，通过这个接口，Spring为各个平台如JDBC、Hibernate等都提供了对应的事务管理器，但是具体的实现就是各个平台自己的事情了    
 
+**后面补上！！！！**
+
+****
+#### 9、SpringMVC  
+> MVC 框架提供了模型-视图-控制的体系结构和可以用来开发灵活、松散耦合的 web 应用程序的组件。MVC 模式导致了应用程序的不同方面(**输入逻辑、业务逻辑和 UI 逻辑**)的分离，同时提供了在这些元素之间的**松散耦合**   
+
+
+```
+## web.xml
+<servlet>
+    <servlet-name>helloWeb</servlet-name>
+    <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+    <load-on-startup>1</load-on-startup>
+</servlet>
+<servlet-mapping>
+    <servlet-name>helloWeb</servlet-name>
+    <url-pattern>/</url-pattern>
+</servlet-mapping>
+```
+
+```
+## helloWeb-servlet.xml  放在WEB-INF目录下
+
+<context:component-scan base-package="com.Tooi.Spring_MVC"/>
+
+
+<bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+    <property name="prefix" value="/WEB-INF/jsp/"/>
+    <property name="suffix" value=".jsp"/>
+</bean>
+
+<!-- 配置静态资源 -->
+<mvc:resources mapping="/pages/**" location="/WEB-INF/pages/"/>
+<mvc:annotation-driven/>
+
+<!-- 异常处理  -->
+<bean class="org.springframework.web.servlet.handler.SimpleMappingExceptionResolver">
+    <property name="exceptionMappings">
+        <props>
+            <prop key="com.Tooi.Spring_MVC.SpringException">
+                ExceptionPage
+            </prop>
+        </props>
+    </property>
+    <property name="defaultErrorView" value="error"/>
+</bean>
+```
