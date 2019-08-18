@@ -3,3 +3,4 @@
 - #### 02-Git & Github
 - #### 03-Spring & SpringMVC
 - #### 04-Hibernate & Mybatis
+- #### 05-Struts2 & SpringMVC
