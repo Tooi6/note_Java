@@ -4,9 +4,15 @@
         "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <hibernate-mapping package="com.Tooi.pojo">
     <class name="Category" table="category">
+<!--        <cache usage="read-only"/>-->
         <id name="id" column="id">
             <generator class="native"></generator>
         </id>
         <property name="name"/>
+        <set name="products" lazy="true" cascade="save-update">
+            <key column="cid" not-null="false"/>
+            <one-to-many class="Product"/>
+        </set>
     </class>
+
 </hibernate-mapping>

@@ -4,8 +4,8 @@ import javax.persistence.*;
 import java.util.Set;
 
 @Entity
-@Table(name = "category")
-public class Category {
+@Table(name = "user_")
+public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
@@ -14,17 +14,13 @@ public class Category {
     @Column(name = "name")
     String name;
 
-    @OneToMany(cascade = CascadeType.ALL,fetch = FetchType.EAGER)
-    @JoinColumn(name = "cid")
+    @ManyToMany(cascade = CascadeType.ALL,fetch = FetchType.EAGER)
+    @JoinTable(
+            name = "user_product",
+            joinColumns = {@JoinColumn(name = "uid")},
+            inverseJoinColumns = {@JoinColumn(name = "pid")}
+    )
     Set<Product> products;
-
-    public Set<Product> getProducts() {
-        return products;
-    }
-
-    public void setProducts(Set<Product> products) {
-        this.products = products;
-    }
 
     public int getId() {
         return id;
@@ -40,5 +36,13 @@ public class Category {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public Set<Product> getProducts() {
+        return products;
+    }
+
+    public void setProducts(Set<Product> products) {
+        this.products = products;
     }
 }
