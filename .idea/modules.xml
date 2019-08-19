@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/03-SpringAndSpringMVC/03-SpringAndSpringMVC.iml" filepath="$PROJECT_DIR$/03-SpringAndSpringMVC/03-SpringAndSpringMVC.iml" />
       <module fileurl="file://$PROJECT_DIR$/04-HibernateAndMybatis/04-HibernateAndMybatis.iml" filepath="$PROJECT_DIR$/04-HibernateAndMybatis/04-HibernateAndMybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05-Struts2AndSpringMVC/05-Struts2AndSpringMVC.iml" filepath="$PROJECT_DIR$/05-Struts2AndSpringMVC/05-Struts2AndSpringMVC.iml" />
       <module fileurl="file://$PROJECT_DIR$/note_Java.iml" filepath="$PROJECT_DIR$/note_Java.iml" />
     </modules>
   </component>

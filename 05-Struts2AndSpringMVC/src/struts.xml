@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+<struts>
+<!--    <constant name="struts.i18n.encoding" value="UTF-8"></constant>-->
+<!--    &lt;!&ndash; 修改上传文件最大大小 &ndash;&gt;-->
+<!--    <constant name="struts.multipart.maxSize" value="10240000"></constant>-->
+<!--    <constant name="struts.devMode" value="true"/>-->
+<!--    <package name="basicstruts" extends="struts-default">-->
+
+<!--        &lt;!&ndash; 配置时间拦截器 &ndash;&gt;-->
+<!--        <interceptors>-->
+<!--            <interceptor name="dateInterceptor" class="com.Tooi.interceptor.DateInterceptor"></interceptor>-->
+<!--        </interceptors>-->
+
+<!--        <action name="index">-->
+<!--            <result>index.jsp</result>-->
+<!--        </action>-->
+<!--        <action name="addPageProduct" class="com.Tooi.action.ProductAction" method="addPage">-->
+<!--            <result name="addPage" type="redirect">addProduct.jsp?name=${name}</result>-->
+<!--        </action>-->
+<!--        <action name="showProduct" class="com.Tooi.action.ProductAction" method="show">-->
+<!--            <result name="show">show.jsp</result>-->
+<!--        </action>-->
+<!--        <action name="addProduct" class="com.Tooi.action.ProductAction" method="add">-->
+<!--            &lt;!&ndash; 用于表单验证不通过时跳转回输入界面 &ndash;&gt;-->
+<!--            <result name="input">addProduct.jsp</result>-->
+<!--            <result name="show">show.jsp</result>-->
+<!--        </action>-->
+<!--        <action name="listProduct" class="com.Tooi.action.ProductAction" method="list">-->
+<!--            <result name="list">list.jsp</result>-->
+<!--        </action>-->
+<!--        &lt;!&ndash; 使用通配符匹配-->
+<!--            *Product 表示所有以Product结尾的路径，都会匹配在这个Action上-->
+<!--            method={1}表示第一个通配符-->
+<!--        &ndash;&gt;-->
+<!--&lt;!&ndash;        <action name="*Product" class="com.Tooi.action.ProductAction" method="{1}">&ndash;&gt;-->
+<!--&lt;!&ndash;            <interceptor-ref name="dateInterceptor"/>&ndash;&gt;-->
+<!--&lt;!&ndash;            <interceptor-ref name="defaultStack"/>&ndash;&gt;-->
+<!--&lt;!&ndash;            <result name="show">show.jsp</result>&ndash;&gt;-->
+<!--&lt;!&ndash;            <result name="list">list.jsp</result>&ndash;&gt;-->
+<!--&lt;!&ndash;            <result name="addPage" type="redirect">addProduct.jsp?name=${name}</result>&ndash;&gt;-->
+<!--&lt;!&ndash;            <allowed-methods>add,show,list,addPage</allowed-methods>&ndash;&gt;-->
+<!--&lt;!&ndash;        </action>&ndash;&gt;-->
+<!--        <action name="upload" class="com.Tooi.action.UploadAction" method="upload">-->
+<!--            <result>success.jsp</result>-->
+<!--        </action>-->
+
+<!--    </package>-->
+</struts>
