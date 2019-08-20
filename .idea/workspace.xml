@@ -1243,17 +1243,18 @@
         <settings>
           <artifact-editor>
             <show-content>
-              <type id="javaee-facet-resources" />
+              <type id="artifact" />
               <type id="jpa-descriptors" />
               <type id="library" />
-              <type id="artifact" />
+              <type id="javaee-facet-resources" />
             </show-content>
           </artifact-editor>
-          <last-edited>05-Struts2AndSpringMVC:war exploded</last-edited>
+          <last-edited>Struts2AndHibernate:war exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.3864818" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

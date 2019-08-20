@@ -65,7 +65,7 @@
             <td>name</td>
             <td>products</td>
         </tr>
-        <s:iterator value="categories" var="c">
+        <s:iterator value="categoryList" var="c">
             <tr>
                 <td>${c.id}</td>
                 <td>${c.name}</td>
