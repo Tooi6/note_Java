@@ -16,7 +16,7 @@
         <td>st.odd</td>
         <td>st.even</td>
     </tr>
-    <s:iterator value="products" var="p" status="st">
+    <s:iterator value="productList" var="p" status="st">
         <tr>
             <td>${p.id}</td>
             <td>${p.name}</td>
@@ -35,7 +35,7 @@
         listValue:显示的checkbox的名称
         listKey:checkbox的value
     -->
-    <s:checkboxlist list="products" value="selectProducts" name="product.id" listValue="name" listKey="id"/>
+    <s:checkboxlist list="productList" value="selectProducts" name="product.id" listValue="name" listKey="id"/>
     <br/>
     <!--
         value表示：哪项被选中
@@ -44,7 +44,7 @@
         listValue:显示的radio的名称
         listKey:radio的value
     -->
-    <s:radio list="products" value="1" name="product.id" listValue="name" listKey="id"/>
+    <s:radio list="productList" value="1" name="product.id" listValue="name" listKey="id"/>
     <br/>
     <!--
         name表示：提交到服务端用的名称
@@ -55,7 +55,7 @@
         size="3"表示默认显示3行
         value表示：哪些被选中
     -->
-    <s:select list="products" listKey="id" listValue="name" name="product.id" value="selectProducts" label="products" size="3" multiple="true"/>
+    <s:select list="productList" listKey="id" listValue="name" name="product.id" value="selectProducts" label="productList" size="3" multiple="true"/>
     <br/>
     <br/>
 
@@ -63,14 +63,14 @@
         <tr>
             <td>id</td>
             <td>name</td>
-            <td>products</td>
+            <td>productList</td>
         </tr>
         <s:iterator value="categoryList" var="c">
             <tr>
                 <td>${c.id}</td>
                 <td>${c.name}</td>
                 <td>
-                    <s:iterator value="#c.products" var="p">
+                    <s:iterator value="#c.productList" var="p">
                         ${p.name}
                     </s:iterator>
                 </td>

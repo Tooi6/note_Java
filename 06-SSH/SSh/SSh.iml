@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="web" name="Web">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/web/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/web" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="Spring" name="Spring">
+      <configuration>
+        <fileset id="fileset" name="Spring Application Context" removed="false">
+          <file>file://$MODULE_DIR$/web/WEB-INF/applicationContext.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+    <facet type="hibernate" name="Hibernate">
+      <configuration>
+        <datasource-map>
+          <unit-entry name="noname-applicationContext.xml@4462" value="06c6913a-21e4-4857-8d2c-ec07cb9359ac" />
+        </datasource-map>
+        <naming-strategy-map />
+      </configuration>
+    </facet>
+    <facet type="jpa" name="JPA">
+      <configuration>
+        <setting name="validation-enabled" value="true" />
+        <datasource-mapping>
+          <factory-entry name="Entities" />
+        </datasource-mapping>
+        <naming-strategy-map />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="antlr-2.7.6">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/antlr-2.7.6.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/aopalliance-1.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/aspectjweaver.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/cglib-nodep-2.1_3.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/commons-collections-3.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/commons-fileupload-1.2.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/commons-io-1.3.2.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/commons-logging-1.0.4.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/commons-logging-1.1.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/commons-logging-api-1.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/dom4j-1.6.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/ehcache-1.2.4.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/freemarker-2.3.16.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/hibernate3.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/javassist-3.7.ga.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/javassist-3.12.0.GA.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/jta-1.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/log4j-1.2.14.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/mysql-connector-java-5.0.8-bin.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/ognl-3.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/servlet-api.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/slf4j-api-1.6.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/spring-aop-3.2.0.M1.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/spring-asm-3.2.0.M1.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/spring-aspects-3.2.0.M1.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/spring-beans-3.2.0.M1.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/spring-context-3.2.0.M1.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/spring-context-support-3.2.0.M1.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/spring-core-3.2.0.M1.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/spring-expression-3.2.0.M1.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/spring-instrument-3.2.0.M1.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/spring-instrument-tomcat-3.2.0.M1.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/spring-jdbc-3.2.0.M1.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/spring-jms-3.2.0.M1.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/spring-orm-3.2.0.M1.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/spring-oxm-3.2.0.M1.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/spring-struts-3.2.0.M1.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/spring-test-3.2.0.M1.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/spring-tx-3.2.0.M1.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/spring-web-3.2.0.M1.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/spring-webmvc-3.2.0.M1.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/spring-webmvc-portlet-3.2.0.M1.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/struts2-core-2.2.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/struts2-spring-plugin-2.2.3.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/xwork-core-2.2.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/struts2-convention-plugin-2.1.7.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>

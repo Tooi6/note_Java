@@ -1,17 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0"?>
 <!DOCTYPE hibernate-mapping PUBLIC
         "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
         "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <hibernate-mapping package="com.Tooi.pojo">
-    <class name="Category" table="category">
+    <class name="Product" table="product_">
         <id name="id" column="id">
-            <generator class="native"></generator>
+            <generator class="native"/>
         </id>
         <property name="name"/>
-        <set name="productList" lazy="false">
-            <key column="cid" not-null="false"></key>
-            <one-to-many class="Product"/>
-        </set>
+        <property name="price"/>
     </class>
-
 </hibernate-mapping>
