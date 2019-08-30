@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="
+   http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+   http://www.springframework.org/schema/aop
+   http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+   http://www.springframework.org/schema/tx
+   http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+   http://www.springframework.org/schema/context
+   http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+    <bean name="category" class="com.Tooi.pojo.Category">
+        <property name="name" value="yyy"/>
+    </bean>
+
+    <bean name="categoryDao" class="com.Tooi.dao.CategoryDao">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+    <bean name="sessionFactory"
+          class="org.springframework.orm.hibernate3.LocalSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"/>
+        <property name="mappingResources">
+            <list>
+                <value>com/Tooi/pojo/Category.hbm.xml</value>
+            </list>
+        </property>
+        <property name="hibernateProperties">
+            <value>
+                hibernate.dialect=org.hibernate.dialect.MySQLDialect
+                hibernate.show_sql=true
+                hbm2ddl.auto=update
+            </value>
+        </property>
+    </bean>
+
+    <bean name="dataSource"
+        class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <property name="driverClass" value="com.mysql.jdbc.Driver"/>
+        <property name="jdbcUrl" value="jdbc:mysql://123.207.58.206:3306/06-SSH?characterEncoding=UTF-8"/>
+        <property name="user" value="root"/>
+        <property name="password" value="aD#m2fG^"/>
+        <!-- 连接池中保留最小连接数 -->
+        <property name="minPoolSize" value="10"/>
+        <!-- 连接池中保留最大连接数 -->
+        <property name="maxPoolSize" value="100"/>
+        <!-- 最大空闲时间，18000s内未使用的连接将被丢弃 -->
+        <property name="maxIdleTime" value="1800"/>
+        <!-- 当连接耗尽时c3p0一次同时获取的连接数 -->
+        <property name="acquireIncrement" value="3"/>
+        <!-- 最大的Statements条数 -->
+        <property name="maxStatements" value="1000"/>
+        <!-- 初始化10条连接 -->
+        <property name="initialPoolSize" value="10"/>
+        <!-- 从数据库获取连接失败后重复尝试的次数 -->
+        <property name="acquireRetryAttempts" value="30"/>
+        <!-- 每隔60s发送一次心跳信号到数据库，以保持连接活性 -->
+        <property name="idleConnectionTestPeriod" value="60"/>
+    </bean>
+
+</beans>

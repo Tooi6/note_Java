@@ -9,43 +9,62 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c54c99c-29a6-4e75-9f1e-86ab5938b295" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/06-SSH/SSh/SSh.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-SSH/SSh/src/com/Tooi/action/CategoryAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-SSH/SSh/src/com/Tooi/action/ProductAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-SSH/SSh/src/com/Tooi/dao/CategoryDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-SSH/SSh/src/com/Tooi/dao/ProductDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-SSH/SSh/src/com/Tooi/dao/impl/CategoryDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-SSH/SSh/src/com/Tooi/dao/impl/ProductDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-SSH/SSh/src/com/Tooi/pojo/Category.hbm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-SSH/SSh/src/com/Tooi/pojo/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-SSH/SSh/src/com/Tooi/pojo/Product.hbm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-SSH/SSh/src/com/Tooi/pojo/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-SSH/SSh/src/com/Tooi/service/CategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-SSH/SSh/src/com/Tooi/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-SSH/SSh/src/com/Tooi/service/impl/CategoryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-SSH/SSh/src/com/Tooi/service/impl/ProductServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-SSH/SSh/src/struts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-SSH/SSh/web/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-SSH/SSh/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-SSH/SSh/web/category/edit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-SSH/SSh/web/category/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-SSH/SSh/web/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-SSH/SSh/web/product/edit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-SSH/SSh/web/product/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Springboot/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Springboot/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Springboot/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Springboot/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Springboot/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Springboot/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Springboot/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Springboot/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Springboot/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Springboot/src/main/java/com/tooi/springboot/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Springboot/src/main/java/com/tooi/springboot/config/PageHelperConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Springboot/src/main/java/com/tooi/springboot/dao/CategoryDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Springboot/src/main/java/com/tooi/springboot/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Springboot/src/main/java/com/tooi/springboot/mapper/Category.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Springboot/src/main/java/com/tooi/springboot/mapper/CategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Springboot/src/main/java/com/tooi/springboot/pojo/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Springboot/src/main/java/com/tooi/springboot/pojo/Category_jpa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Springboot/src/main/java/com/tooi/springboot/pojo/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Springboot/src/main/java/com/tooi/springboot/web/CategoryController1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Springboot/src/main/java/com/tooi/springboot/web/CategoryController2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Springboot/src/main/java/com/tooi/springboot/web/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Springboot/src/main/java/com/tooi/springboot/web/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Springboot/src/main/java/com/tooi/springboot/web/UploadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Springboot/src/main/resources/application-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Springboot/src/main/resources/application-pro.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Springboot/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Springboot/src/main/resources/templates/helloThymeleaf.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Springboot/src/main/resources/templates/include.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Springboot/src/main/resources/templates/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Springboot/src/main/webapp/WEB-INF/jsp/category/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Springboot/src/main/webapp/WEB-INF/jsp/category/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Springboot/src/main/webapp/WEB-INF/jsp/editCategory.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Springboot/src/main/webapp/WEB-INF/jsp/errorPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Springboot/src/main/webapp/WEB-INF/jsp/hello.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Springboot/src/main/webapp/WEB-INF/jsp/listCategory.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Springboot/src/main/webapp/WEB-INF/jsp/showImg.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Springboot/src/main/webapp/WEB-INF/jsp/uploadPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Springboot/src/main/webapp/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Springboot/src/main/webapp/getMany.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Springboot/src/main/webapp/getOne.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Springboot/src/main/webapp/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Springboot/src/main/webapp/js/thymeleaf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Springboot/src/main/webapp/submit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Springboot/src/test/java/com/tooi/springboot/ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Springboot/src/test/java/com/tooi/springboot/test/TestJPA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-HibernateAndMybatis/src/com/Tooi/pojo/Category.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/04-HibernateAndMybatis/src/com/Tooi/pojo/Category.hbm.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-HibernateAndMybatis/src/com/Tooi/pojo/User.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/04-HibernateAndMybatis/src/com/Tooi/pojo/User.hbm.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-Struts2AndSpringMVC/web/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/05-Struts2AndSpringMVC/web/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-SSH/SpringAndHibernate/SpringAndHibernate.iml" beforeDir="false" afterPath="$PROJECT_DIR$/06-SSH/SpringAndHibernate/SpringAndHibernate.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-SSH/Struts2AndHibernate/src/com/Tooi/pojo/Category.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/06-SSH/Struts2AndHibernate/src/com/Tooi/pojo/Category.hbm.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-SSH/Struts2AndHibernate/web/category/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/06-SSH/Struts2AndHibernate/web/category/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-SpringAndSpringMVC/03-SpringAndSpringMVC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/03-SpringAndSpringMVC/03-SpringAndSpringMVC.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".idea/" />
     <ignored path="note_Java.iml" />
     <ignored path="$PROJECT_DIR$/03-SpringAndSpringMVC/target/" />
     <ignored path="$PROJECT_DIR$/04-HibernateAndMybatis/target/" />
+    <ignored path="$PROJECT_DIR$/08-Springboot/target/" />
     <manually-removed-from-ignored>
       <directory path=".idea/codeStyles/" />
     </manually-removed-from-ignored>
@@ -56,6 +75,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" show_ignored="true" />
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
     <option name="GROUP_DATA_SOURCES" value="true" />
@@ -81,13 +103,13 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="@123.207.58.206" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="06-SSH: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="note_Java: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="@123.207.58.206" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="06-SSH: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="note_Java: schema" type="76f4a085:MysqlImplModel$Schema" />
         <item name="category: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
     </expand>
@@ -108,47 +130,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/06-SSH/SSh/src/com/Tooi/action/CategoryAction.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/08-Springboot/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#661#662#0" expanded="true" />
-                <element signature="e#696#697#0" expanded="true" />
-                <element signature="e#760#761#0" expanded="true" />
-                <element signature="e#808#809#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="419">
+              <caret line="80" column="21" lean-forward="true" selection-start-line="68" selection-start-column="8" selection-end-line="80" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/06-SSH/SSh/src/com/Tooi/action/ProductAction.java">
+        <entry file="file://$PROJECT_DIR$/08-Springboot/src/main/java/com/tooi/springboot/mapper/CategoryMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="14" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/08-Springboot/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/08-Springboot/src/main/java/com/tooi/springboot/pojo/Product.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
-              <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+              <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1728#1729#0" expanded="true" />
-                <element signature="e#1758#1759#0" expanded="true" />
-                <element signature="e#1805#1806#0" expanded="true" />
-                <element signature="e#1843#1844#0" expanded="true" />
-                <element signature="e#1890#1891#0" expanded="true" />
-                <element signature="e#1925#1926#0" expanded="true" />
-                <element signature="e#1989#1990#0" expanded="true" />
-                <element signature="e#2037#2038#0" expanded="true" />
+                <element signature="e#152#153#0" expanded="true" />
+                <element signature="e#177#178#0" expanded="true" />
+                <element signature="e#238#239#0" expanded="true" />
+                <element signature="e#269#270#0" expanded="true" />
+                <element signature="e#296#297#0" expanded="true" />
+                <element signature="e#336#337#0" expanded="true" />
+                <element signature="e#368#369#0" expanded="true" />
+                <element signature="e#399#400#0" expanded="true" />
+                <element signature="e#427#428#0" expanded="true" />
+                <element signature="e#468#469#0" expanded="true" />
+                <element signature="e#502#503#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/06-SSH/SSh/src/com/Tooi/dao/CategoryDao.java">
+        <entry file="file://$PROJECT_DIR$/08-Springboot/src/main/java/com/tooi/springboot/web/TestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+            <state relative-caret-position="496">
+              <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -157,100 +196,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/06-SSH/SSh/src/com/Tooi/dao/impl/ProductDaoImpl.java">
+        <entry file="file://$PROJECT_DIR$/08-Springboot/src/main/resources/templates/include.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
-              <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#0#12#1" expanded="true" />
-                <element signature="e#713#714#0" expanded="true" />
-                <element signature="e#736#737#0" expanded="true" />
-                <element signature="e#784#785#0" expanded="true" />
-                <element signature="e#828#829#0" expanded="true" />
-                <element signature="e#885#886#0" expanded="true" />
-                <element signature="e#922#923#0" expanded="true" />
-                <element signature="e#979#980#0" expanded="true" />
-                <element signature="e#1016#1017#0" expanded="true" />
-              </folding>
+              <caret line="5" column="55" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/06-SSH/SSh/src/com/Tooi/dao/impl/CategoryDaoImpl.java">
+        <entry file="file://$PROJECT_DIR$/08-Springboot/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#284#285#0" expanded="true" />
-                <element signature="e#304#305#0" expanded="true" />
-                <element signature="e#296#297#0" expanded="true" />
-                <element signature="e#0#13#0" expanded="true" />
-                <element signature="e#323#324#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="76">
+              <caret line="4" selection-start-line="4" selection-end-line="9" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/06-SSH/SSh/src/com/Tooi/service/CategoryService.java">
+        <entry file="file://$PROJECT_DIR$/08-Springboot/src/main/resources/templates/test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="268">
+              <caret line="23" column="54" lean-forward="true" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/06-SSH/SSh/src/com/Tooi/service/ProductService.java">
+        <entry file="file://$PROJECT_DIR$/08-Springboot/src/main/resources/templates/helloThymeleaf.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/06-SSH/SSh/src/com/Tooi/service/impl/CategoryServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/06-SSH/SSh/web/WEB-INF/applicationContext.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="95" column="30" selection-start-line="95" selection-start-column="16" selection-end-line="95" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/06-SSH/SSh/src/com/Tooi/service/impl/ProductServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="89" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="89" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1226#1227#0" expanded="true" />
-                <element signature="e#1268#1269#0" expanded="true" />
-                <element signature="e#1325#1326#0" expanded="true" />
-                <element signature="e#1367#1368#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="95">
+              <caret line="5" column="108" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="5" selection-end-column="108" />
             </state>
           </provider>
         </entry>
@@ -261,13 +237,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Aspect" />
-        <option value="HTML File" />
         <option value="FxmlFile" />
         <option value="struts_2_5" />
         <option value="spring-beans.schema" />
-        <option value="Jsp File" />
         <option value="Interface" />
+        <option value="Jsp File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -276,6 +252,9 @@
       <find>4.1.6.RELEASE</find>
       <find>how2java</find>
       <find>jdbc</find>
+      <find>mysql.version</find>
+      <find>junit.version</find>
+      <find>junit</find>
     </findStrings>
     <replaceStrings>
       <replace>${spring-version}</replace>
@@ -290,47 +269,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/05-Struts2AndSpringMVC/src/struts.xml" />
-        <option value="$PROJECT_DIR$/05-Struts2AndSpringMVC/src/com/Tooi/action/ProductAction.java" />
-        <option value="$PROJECT_DIR$/05-Struts2AndSpringMVC/README.md" />
-        <option value="$PROJECT_DIR$/06-SSH/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/06-SSH/web/index.jsp" />
-        <option value="$PROJECT_DIR$/06-SSH/src/hibernate.cfg.xml" />
-        <option value="$PROJECT_DIR$/06-SSH/src/com/Tooi/pojo/Product.java" />
-        <option value="$PROJECT_DIR$/06-SSH/src/com/Tooi/pojo/Product.hbm.xml" />
-        <option value="$PROJECT_DIR$/06-SSH/src/com/Tooi/pojo/Category.java" />
-        <option value="$PROJECT_DIR$/06-SSH/src/com/Tooi/pojo/Category.hbm.xml" />
-        <option value="$PROJECT_DIR$/06-SSH/src/com/Tooi/test/TestHibernate.java" />
-        <option value="$PROJECT_DIR$/06-SSH/src/struts.xml" />
-        <option value="$PROJECT_DIR$/06-SSH/web/category/edit.jsp" />
-        <option value="$PROJECT_DIR$/06-SSH/src/com/Tooi/action/CategoryAction.java" />
-        <option value="$PROJECT_DIR$/06-SSH/src/com/Tooi/dao/ProductDAO.java" />
-        <option value="$PROJECT_DIR$/06-SSH/src/com/Tooi/dao/CategoryDao.java" />
-        <option value="$PROJECT_DIR$/06-SSH/src/com/Tooi/action/ProductAction.java" />
-        <option value="$PROJECT_DIR$/06-SSH/web/product/edit.jsp" />
-        <option value="$PROJECT_DIR$/06-SSH/web/product/list.jsp" />
-        <option value="$PROJECT_DIR$/06-SSH/web/category/list.jsp" />
-        <option value="$PROJECT_DIR$/06-SSH/Struts2AndHibernate/src/com/Tooi/dao/CategoryDao.java" />
-        <option value="$PROJECT_DIR$/06-SSH/Struts2AndHibernate/src/com/Tooi/test/TestHibernate.java" />
-        <option value="$PROJECT_DIR$/06-SSH/Struts2AndHibernate/web/index.jsp" />
-        <option value="$PROJECT_DIR$/06-SSH/Struts2AndHibernate/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/06-SSH/SpringAndHibernate/src/com/Tooi/pojo/Category.java" />
-        <option value="$PROJECT_DIR$/06-SSH/SpringAndHibernate/src/hibernate.cfg.xml" />
-        <option value="$PROJECT_DIR$/06-SSH/SpringAndHibernate/src/com/Tooi/dao/CategoryDao.java" />
-        <option value="$PROJECT_DIR$/06-SSH/SpringAndHibernate/src/com/Tooi/pojo/Category.hbm.xml" />
-        <option value="$PROJECT_DIR$/06-SSH/SpringAndHibernate/src/com/Tooi/test/TestSpring.java" />
-        <option value="$PROJECT_DIR$/06-SSH/SpringAndHibernate/src/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/06-SSH/SSh/src/com/Tooi/pojo/Product.hbm.xml" />
-        <option value="$PROJECT_DIR$/06-SSH/SSh/src/com/Tooi/dao/ProjectDAO.java" />
-        <option value="$PROJECT_DIR$/06-SSH/SSh/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/06-SSH/SSh/web/product/list.jsp" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/06c6913a-21e4-4857-8d2c-ec07cb9359ac/console.sql" />
-        <option value="$PROJECT_DIR$/06-SSH/SSh/src/struts.xml" />
-        <option value="$PROJECT_DIR$/06-SSH/SSh/web/WEB-INF/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/06-SSH/SSh/src/com/Tooi/pojo/Category.java" />
-        <option value="$PROJECT_DIR$/06-SSH/SSh/src/com/Tooi/pojo/Product.java" />
         <option value="$PROJECT_DIR$/06-SSH/SSh/src/com/Tooi/pojo/Category.hbm.xml" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$PROJECT_DIR$/06-SSH/SSh/src/com/Tooi/action/ProductAction.java" />
         <option value="$PROJECT_DIR$/06-SSH/SSh/src/com/Tooi/service/ProductService.java" />
         <option value="$PROJECT_DIR$/06-SSH/SSh/src/com/Tooi/service/impl/ProductServiceImpl.java" />
@@ -341,6 +280,46 @@
         <option value="$PROJECT_DIR$/06-SSH/SSh/src/com/Tooi/dao/impl/CategoryDaoImpl.java" />
         <option value="$PROJECT_DIR$/06-SSH/SSh/src/com/Tooi/service/CategoryService.java" />
         <option value="$PROJECT_DIR$/06-SSH/SSh/src/com/Tooi/action/CategoryAction.java" />
+        <option value="$PROJECT_DIR$/08-Springboot/src/main/java/com/tooi/springboot/Application.java" />
+        <option value="$PROJECT_DIR$/08-Springboot/src/main/webapp/WEB-INF/jsp/hello.jsp" />
+        <option value="$PROJECT_DIR$/08-Springboot/src/main/webapp/WEB-INF/jsp/errorPage.jsp" />
+        <option value="$PROJECT_DIR$/08-Springboot/src/main/resources/application-dev.properties" />
+        <option value="$PROJECT_DIR$/08-Springboot/src/main/resources/application-pro.preperties" />
+        <option value="$PROJECT_DIR$/08-Springboot/src/main/java/com/tooi/springboot/exception/GlobalExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/08-Springboot/src/main/java/com/tooi/springboot/config/PageHelperConfig.java" />
+        <option value="$PROJECT_DIR$/08-Springboot/src/main/java/com/tooi/springboot/mapper/Category.xml" />
+        <option value="$PROJECT_DIR$/08-Springboot/src/main/webapp/WEB-INF/jsp/category/editCategory.jsp" />
+        <option value="$PROJECT_DIR$/08-Springboot/src/main/java/com/tooi/springboot/mapper/CategoryMapper.java" />
+        <option value="$PROJECT_DIR$/08-Springboot/src/main/java/com/tooi/springboot/test/TestJPA.java" />
+        <option value="$PROJECT_DIR$/08-Springboot/src/test/java/com/tooi/springboot/test/testJPA.java" />
+        <option value="$PROJECT_DIR$/08-Springboot/src/main/java/com/tooi/springboot/dao/CategoryDAO_jpa.java" />
+        <option value="$PROJECT_DIR$/08-Springboot/src/main/java/com/tooi/springboot/dao/CategoryDAO.java" />
+        <option value="$PROJECT_DIR$/08-Springboot/src/main/java/com/tooi/springboot/pojo/Category_jpa.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/08-Springboot/src/test/java/com/tooi/springboot/test/TestJPA.java" />
+        <option value="$PROJECT_DIR$/08-Springboot/src/main/webapp/WEB-INF/jsp/uploadPage.jsp" />
+        <option value="$PROJECT_DIR$/08-Springboot/src/main/java/com/tooi/springboot/web/UploadController.java" />
+        <option value="$PROJECT_DIR$/08-Springboot/src/main/webapp/WEB-INF/jsp/category/listCategory.jsp" />
+        <option value="$PROJECT_DIR$/08-Springboot/src/main/java/com/tooi/springboot/web/CategoryController.java" />
+        <option value="$PROJECT_DIR$/08-Springboot/src/main/webapp/WEB-INF/jsp/category/edit.jsp" />
+        <option value="$PROJECT_DIR$/08-Springboot/src/main/webapp/WEB-INF/jsp/category/list.jsp" />
+        <option value="$PROJECT_DIR$/08-Springboot/src/main/webapp/WEB-INF/jsp/showImg.jsp" />
+        <option value="$PROJECT_DIR$/08-Springboot/src/main/java/com/tooi/springboot/pojo/Category.java" />
+        <option value="$PROJECT_DIR$/08-Springboot/src/main/webapp/submit.html" />
+        <option value="$PROJECT_DIR$/08-Springboot/src/main/java/com/tooi/springboot/web/CategoryController1.java" />
+        <option value="$PROJECT_DIR$/08-Springboot/src/main/webapp/getOne.html" />
+        <option value="$PROJECT_DIR$/08-Springboot/src/main/webapp/getMany.html" />
+        <option value="$PROJECT_DIR$/08-Springboot/src/main/java/com/tooi/springboot/web/CategoryController2.java" />
+        <option value="$PROJECT_DIR$/08-Springboot/pom.xml" />
+        <option value="$PROJECT_DIR$/08-Springboot/src/main/java/com/tooi/springboot/web/HelloController.java" />
+        <option value="$PROJECT_DIR$/08-Springboot/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/08-Springboot/src/main/webapp/css/style.css" />
+        <option value="$PROJECT_DIR$/08-Springboot/src/main/webapp/js/thymeleaf.js" />
+        <option value="$PROJECT_DIR$/08-Springboot/src/main/resources/templates/helloThymeleaf.html" />
+        <option value="$PROJECT_DIR$/08-Springboot/src/main/java/com/tooi/springboot/pojo/Product.java" />
+        <option value="$PROJECT_DIR$/08-Springboot/src/main/resources/templates/include.html" />
+        <option value="$PROJECT_DIR$/08-Springboot/src/main/java/com/tooi/springboot/web/TestController.java" />
+        <option value="$PROJECT_DIR$/08-Springboot/src/main/resources/templates/test.html" />
       </list>
     </option>
   </component>
@@ -369,21 +348,21 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="03-SpringAndSpringMVC" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="08-Springboot" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="03-SpringAndSpringMVC" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="08-Springboot" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="width" value="978" />
-    <option name="height" value="1039" />
+    <option name="x" value="-8" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -395,7 +374,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -406,205 +384,56 @@
             <path>
               <item name="note_Java" type="b2602c69:ProjectViewProjectNode" />
               <item name="note_Java" type="462c0819:PsiDirectoryNode" />
-              <item name="06-SSH" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="note_Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="note_Java" type="462c0819:PsiDirectoryNode" />
-              <item name="06-SSH" type="462c0819:PsiDirectoryNode" />
-              <item name="SSh" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="note_Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="note_Java" type="462c0819:PsiDirectoryNode" />
-              <item name="06-SSH" type="462c0819:PsiDirectoryNode" />
-              <item name="SSh" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="note_Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="note_Java" type="462c0819:PsiDirectoryNode" />
-              <item name="06-SSH" type="462c0819:PsiDirectoryNode" />
-              <item name="SSh" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="note_Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="note_Java" type="462c0819:PsiDirectoryNode" />
-              <item name="06-SSH" type="462c0819:PsiDirectoryNode" />
-              <item name="SSh" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="Tooi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="note_Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="note_Java" type="462c0819:PsiDirectoryNode" />
-              <item name="06-SSH" type="462c0819:PsiDirectoryNode" />
-              <item name="SSh" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="Tooi" type="462c0819:PsiDirectoryNode" />
-              <item name="action" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="note_Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="note_Java" type="462c0819:PsiDirectoryNode" />
-              <item name="06-SSH" type="462c0819:PsiDirectoryNode" />
-              <item name="SSh" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="Tooi" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="note_Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="note_Java" type="462c0819:PsiDirectoryNode" />
-              <item name="06-SSH" type="462c0819:PsiDirectoryNode" />
-              <item name="SSh" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="Tooi" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="note_Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="note_Java" type="462c0819:PsiDirectoryNode" />
-              <item name="06-SSH" type="462c0819:PsiDirectoryNode" />
-              <item name="SSh" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="Tooi" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="note_Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="note_Java" type="462c0819:PsiDirectoryNode" />
-              <item name="06-SSH" type="462c0819:PsiDirectoryNode" />
-              <item name="SSh" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="Tooi" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="note_Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="note_Java" type="462c0819:PsiDirectoryNode" />
-              <item name="06-SSH" type="462c0819:PsiDirectoryNode" />
-              <item name="SSh" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="Tooi" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="note_Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="note_Java" type="462c0819:PsiDirectoryNode" />
-              <item name="06-SSH" type="462c0819:PsiDirectoryNode" />
-              <item name="SSh" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="note_Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="note_Java" type="462c0819:PsiDirectoryNode" />
-              <item name="06-SSH" type="462c0819:PsiDirectoryNode" />
-              <item name="SSh" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="product" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="note_Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="note_Java" type="462c0819:PsiDirectoryNode" />
-              <item name="06-SSH" type="462c0819:PsiDirectoryNode" />
-              <item name="SSh" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="note_Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="note_Java" type="462c0819:PsiDirectoryNode" />
-              <item name="06-SSH" type="462c0819:PsiDirectoryNode" />
-              <item name="Struts2AndHibernate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="note_Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="note_Java" type="462c0819:PsiDirectoryNode" />
-              <item name="06-SSH" type="462c0819:PsiDirectoryNode" />
-              <item name="Struts2AndHibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="note_Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="note_Java" type="462c0819:PsiDirectoryNode" />
-              <item name="06-SSH" type="462c0819:PsiDirectoryNode" />
-              <item name="Struts2AndHibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="note_Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="note_Java" type="462c0819:PsiDirectoryNode" />
-              <item name="06-SSH" type="462c0819:PsiDirectoryNode" />
-              <item name="Struts2AndHibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="Tooi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="note_Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="note_Java" type="462c0819:PsiDirectoryNode" />
-              <item name="06-SSH" type="462c0819:PsiDirectoryNode" />
-              <item name="Struts2AndHibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="Tooi" type="462c0819:PsiDirectoryNode" />
-              <item name="action" type="462c0819:PsiDirectoryNode" />
+              <item name="08-Springboot" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/06-SSH/SSh/web" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../note_algorithm" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3864818" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\work\IdeaProjects\note_Java\06-SSH\SSh\web\WEB-INF\lib" />
-      <recent name="D:\work\IdeaProjects\note_Java\06-SSH\SSh\src" />
-      <recent name="D:\work\IdeaProjects\note_Java\06-SSH\SSh\web\WEB-INF" />
-      <recent name="D:\work\IdeaProjects\note_Java\06-SSH\SpringAndHibernate\lib" />
-      <recent name="D:\work\IdeaProjects\note_Java\05-Struts2AndSpringMVC\lib" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.Tooi.test" />
-      <recent name="com.Tooi.Spring_Transaction" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\work\IdeaProjects\note_Java\06-SSH\SSh\web" />
       <recent name="D:\work\IdeaProjects\note_Java\06-SSH\SpringAndHibernate\lib" />
       <recent name="D:\work\IdeaProjects\note_Java\06-SSH\SpringAndHibernate\src" />
       <recent name="D:\work\IdeaProjects\note_Java\06-SSH\Struts2AndHibernate\web" />
       <recent name="D:\work\IdeaProjects\note_Java\06-SSH\Struts2AndHibernate\src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.Tooi.test" />
+      <recent name="com.Tooi.Spring_Transaction" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\work\IdeaProjects\note_Java\08-Springboot\src\main\webapp" />
+      <recent name="D:\work\IdeaProjects\note_Java\08-Springboot\src\main\resources\static" />
+      <recent name="D:\work\IdeaProjects\note_Java\08-Springboot\src\main\webapp\js" />
+      <recent name="D:\work\IdeaProjects\note_Java\08-Springboot\src\main\webapp\WEB-INF\jsp" />
+      <recent name="D:\work\IdeaProjects\note_Java\06-SSH\SSh\web\WEB-INF\lib" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -619,61 +448,84 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.jsp">
-    <configuration name="TestCategory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Tooi.test.TestCategory" />
-      <module name="04-HibernateAndMybatis" />
+  <component name="RunManager" selected="Spring Boot.Application">
+    <configuration name="TestJPA.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="08-Springboot" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Tooi.test.*" />
+          <option name="PATTERN" value="com.tooi.springboot.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.tooi.springboot.test" />
+      <option name="MAIN_CLASS_NAME" value="com.tooi.springboot.test.TestJPA" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestHibernate (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Tooi.test.TestHibernate" />
-      <module name="06-SSH" />
+    <configuration name="TestJPA.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="08-Springboot" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Tooi.test.*" />
+          <option name="PATTERN" value="com.tooi.springboot.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.tooi.springboot.test" />
+      <option name="MAIN_CLASS_NAME" value="com.tooi.springboot.test.TestJPA" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestHibernate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Tooi.test.TestHibernate" />
-      <module name="04-HibernateAndMybatis" />
+    <configuration name="TestJPA.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="08-Springboot" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Tooi.test.*" />
+          <option name="PATTERN" value="com.tooi.springboot.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.tooi.springboot.test" />
+      <option name="MAIN_CLASS_NAME" value="com.tooi.springboot.test.TestJPA" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSpring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Tooi.test.TestSpring" />
-      <module name="SpringAndHibernate" />
+    <configuration name="TestJPA.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="08-Springboot" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Tooi.test.*" />
+          <option name="PATTERN" value="com.tooi.springboot.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.tooi.springboot.test" />
+      <option name="MAIN_CLASS_NAME" value="com.tooi.springboot.test.TestJPA" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="index.jsp" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/note_Java/SSh/index.jsp">
       <method v="2" />
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="08-Springboot" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tooi.springboot.Application" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_WORKING_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="Tomcat 8.5.43" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.43" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/note_Java/SSh" />
@@ -744,11 +596,7 @@
       </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="03-SpringAndSpringMVC:war" />
-          <artifact name="SpringAndHibernate:war exploded" />
-          <artifact name="SSh:war exploded" />
-        </option>
+        <option name="BuildArtifacts" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.43" ALTERNATIVE_JRE_ENABLED="false">
@@ -824,24 +672,27 @@
           <artifact name="Struts2AndHibernate:war exploded" />
           <artifact name="SpringAndHibernate:war exploded" />
           <artifact name="SSh:war exploded" />
+          <artifact name="08-Springboot:war exploded" />
+          <artifact name="08-Springboot:war" />
         </option>
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestHibernate" />
-      <item itemvalue="Application.TestCategory" />
-      <item itemvalue="Application.TestHibernate (1)" />
-      <item itemvalue="Application.TestSpring" />
       <item itemvalue="JavaScript Debug.index.jsp" />
+      <item itemvalue="JUnit.TestJPA.test" />
+      <item itemvalue="JUnit.TestJPA.test1" />
+      <item itemvalue="JUnit.TestJPA.test2" />
+      <item itemvalue="JUnit.TestJPA.test3" />
+      <item itemvalue="Spring Boot.Application" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.43" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestJPA.test3" />
+        <item itemvalue="JUnit.TestJPA.test2" />
+        <item itemvalue="JUnit.TestJPA.test1" />
+        <item itemvalue="JUnit.TestJPA.test" />
         <item itemvalue="JavaScript Debug.index.jsp" />
-        <item itemvalue="Application.TestSpring" />
-        <item itemvalue="Application.TestHibernate (1)" />
-        <item itemvalue="Application.TestHibernate" />
-        <item itemvalue="Application.TestCategory" />
       </list>
     </recent_temporary>
   </component>
@@ -871,6 +722,14 @@
       <workItem from="1566216775635" duration="3334000" />
       <workItem from="1566265712296" duration="9587000" />
       <workItem from="1566352963743" duration="19026000" />
+      <workItem from="1566438273412" duration="5894000" />
+      <workItem from="1566973341226" duration="2404000" />
+      <workItem from="1566986886407" duration="1237000" />
+      <workItem from="1566993924510" duration="205000" />
+      <workItem from="1566995624537" duration="1948000" />
+      <workItem from="1567040432446" duration="17470000" />
+      <workItem from="1567131352323" duration="4012000" />
+      <workItem from="1567150175896" duration="13892000" />
     </task>
     <task id="LOCAL-00001" summary="8-13,初始化项目，根目录添加README.md">
       <created>1565658773463</created>
@@ -963,11 +822,50 @@
       <option name="project" value="LOCAL" />
       <updated>1566370963775</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="8-20,06-SSh,SSh（完成）">
+      <created>1566438347493</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1566438347493</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="TestJPA_test1 - 2019.08.29 at 21h 08m 35s.xml">
+      <configuration name="TestJPA.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestJPA_test1 - 2019.08.29 at 21h 09m 55s.xml">
+      <configuration name="TestJPA.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestJPA_test1 - 2019.08.29 at 21h 15m 36s.xml">
+      <configuration name="TestJPA.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestJPA_test1 - 2019.08.29 at 21h 17m 00s.xml">
+      <configuration name="TestJPA.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestJPA_test2 - 2019.08.29 at 21h 20m 17s.xml">
+      <configuration name="TestJPA.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestJPA_test2 - 2019.08.29 at 21h 20m 59s.xml">
+      <configuration name="TestJPA.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestJPA_test3 - 2019.08.29 at 21h 23m 16s.xml">
+      <configuration name="TestJPA.test3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestJPA_test3 - 2019.08.29 at 21h 24m 23s.xml">
+      <configuration name="TestJPA.test3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestJPA_test3 - 2019.08.29 at 21h 25m 32s.xml">
+      <configuration name="TestJPA.test3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestJPA_test3 - 2019.08.30 at 10h 45m 42s.xml">
+      <configuration name="TestJPA.test3" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147284000" />
+    <option name="totallyTimeSpent" value="194346000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -982,7 +880,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16689008" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2955764" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -994,32 +892,34 @@
       <window_info anchor="bottom" id="Database Console" order="0" weight="0.31518623" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.3243626" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.49731904" visible="true" weight="0.38243628" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.60924935" weight="0.5730659" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.47308782" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32719547" />
-      <window_info anchor="bottom" id="Spring" order="8" weight="0.3286119" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.32808024" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50268096" side_tool="true" weight="0.38101983" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.26487252" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.39075068" side_tool="true" weight="0.20113315" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.25358167" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.5636729" weight="0.31375358" />
       <window_info anchor="bottom" id="Database Changes" order="15" weight="0.3286119" />
       <window_info anchor="bottom" id="Application Servers" order="16" sideWeight="0.49865952" weight="0.15439093" />
+      <window_info anchor="bottom" id="Problems" order="17" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24896266" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.6071923" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.604426" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" weight="0.4923928" />
+      <window_info anchor="right" id="Database" order="6" weight="0.11997319" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.15884718" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.49100968" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3360996" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1031,29 +931,31 @@
       <window_info anchor="bottom" id="Database Console" order="0" weight="0.31518623" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.3243626" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49731904" visible="true" weight="0.38252148" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.60924935" weight="0.5730659" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.47308782" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32719547" />
-      <window_info anchor="bottom" id="Spring" order="8" weight="0.3286119" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.32808024" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50268096" side_tool="true" weight="0.38101983" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.26487252" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.39075068" side_tool="true" weight="0.20113315" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.25358167" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.5636729" weight="0.31375358" />
       <window_info anchor="bottom" id="Database Changes" order="15" weight="0.3286119" />
       <window_info anchor="bottom" id="Application Servers" order="16" sideWeight="0.49865952" weight="0.15439093" />
+      <window_info anchor="bottom" id="Problems" order="17" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24896266" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.6071923" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.604426" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" weight="0.49329758" />
+      <window_info anchor="right" id="Database" order="6" weight="0.11997319" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.15884718" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1121,389 +1023,25 @@
     <MESSAGE value="8-20,06-SSh,Struts2AndHibernate" />
     <MESSAGE value="8-20,06-SSh,Struts2AndHibernate,(fix)" />
     <MESSAGE value="8-20,06-SSh,SpringAndHibernate（完成）" />
-    <option name="LAST_COMMIT_MESSAGE" value="8-20,06-SSh,SpringAndHibernate（完成）" />
+    <MESSAGE value="8-20,06-SSh,SSh（完成）" />
+    <option name="LAST_COMMIT_MESSAGE" value="8-20,06-SSh,SSh（完成）" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/06-SSH/Struts2AndHibernate/src/com/Tooi/test/TestHibernate.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/06-SSH/Struts2AndHibernate/web/category/edit.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/06-SSH/web/index.jsp" />
-    <entry file="file://$PROJECT_DIR$/06-SSH/Struts2AndHibernate/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/06-SSH/web/WEB-INF/web.xml" />
-    <entry file="file://$PROJECT_DIR$/06-SSH/SpringAndHibernate/README.md" />
-    <entry file="file://$PROJECT_DIR$/06-SSH/Struts2AndHibernate/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/06-SSH/Struts2AndHibernate/src/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="55" lean-forward="true" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/06-SSH/SpringAndHibernate/lib/org.springframework.orm-3.1.0.M2.jar!/org/springframework/orm/hibernate3/HibernateTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1045">
-          <caret line="37" column="26" lean-forward="true" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/06-SSH/SpringAndHibernate/src/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="53" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/06-SSH/SpringAndHibernate/lib/org.springframework.orm-3.1.0.M2.jar!/org/springframework/orm/hibernate3/SessionFactoryBuilderSupport.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11153">
-          <caret line="650" column="16" selection-start-line="650" selection-start-column="16" selection-end-line="650" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#28983#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04-HibernateAndMybatis/src/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/06-SSH/SpringAndHibernate/src/com/Tooi/pojo/Category.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/06-SSH/SpringAndHibernate/src/com/Tooi/dao/CategoryDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/06-SSH/SpringAndHibernate/src/com/Tooi/pojo/Category.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-          <folding>
-            <element signature="e#142#143#0" expanded="true" />
-            <element signature="e#175#176#0" expanded="true" />
-            <element signature="e#203#204#0" expanded="true" />
-            <element signature="e#234#235#0" expanded="true" />
-            <element signature="e#261#262#0" expanded="true" />
-            <element signature="e#301#302#0" expanded="true" />
-            <element signature="e#333#334#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/06-SSH/SpringAndHibernate/src/com/Tooi/test/TestSpring.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="62" column="16" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#0#35#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://06c6913a-21e4-4857-8d2c-ec07cb9359ac/schema/06-SSH/table/category.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/06-SSH/SpringAndHibernate/src/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="45" column="49" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/06-SSH/SSh/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="65" selection-start-line="21" selection-start-column="65" selection-end-line="21" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/06c6913a-21e4-4857-8d2c-ec07cb9359ac/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="20" selection-start-column="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/06-SSH/SSh/src/struts.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="21" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="13" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/06-SSH/SSh/web/category/edit.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/06-SSH/Struts2AndHibernate/src/struts.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="3" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/06-SSH/SSh/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="30" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/06-SSH/Struts2AndHibernate/src/com/Tooi/pojo/Category.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/06-SSH/Struts2AndHibernate/src/com/Tooi/pojo/Category.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/06-SSH/Struts2AndHibernate/src/com/Tooi/pojo/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/06-SSH/Struts2AndHibernate/src/com/Tooi/pojo/Product.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-Struts2AndSpringMVC/src/com/Tooi/pojo/Category.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-Struts2AndSpringMVC/src/com/Tooi/pojo/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/06-SSH/SSh/src/com/Tooi/pojo/Category.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/06-SSH/SSh/src/com/Tooi/pojo/Product.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="3" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/06-SSH/SSh/src/com/Tooi/pojo/Category.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://06c6913a-21e4-4857-8d2c-ec07cb9359ac/schema/06-SSH/table/category">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="af6e180b-cd48-4e22-aae8-e685549c97fd">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/06-SSH/SSh/web/product/list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/06-SSH/SSh/src/com/Tooi/pojo/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#439#440#0" expanded="true" />
-            <element signature="e#470#471#0" expanded="true" />
-            <element signature="e#520#521#0" expanded="true" />
-            <element signature="e#560#561#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/06-SSH/SSh/web/product/edit.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="34" column="67" lean-forward="true" selection-start-line="34" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/06-SSH/Struts2AndHibernate/src/com/Tooi/action/ProductAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="68" column="20" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://06c6913a-21e4-4857-8d2c-ec07cb9359ac/schema/06-SSH/table/product_">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="af6e180b-cd48-4e22-aae8-e685549c97fd">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/06-SSH/SSh/src/com/Tooi/dao/ProductDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/06-SSH/SSh/src/com/Tooi/service/ProductService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/06-SSH/SSh/src/com/Tooi/dao/CategoryDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/06-SSH/SSh/web/WEB-INF/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
+        <state relative-caret-position="1805">
           <caret line="95" column="30" selection-start-line="95" selection-start-column="16" selection-end-line="95" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/06-SSH/SSh/web/WEB-INF/lib/spring-orm-3.2.0.M1.jar!/org/springframework/orm/hibernate3/HibernateTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="573" column="16" selection-start-line="573" selection-start-column="16" selection-end-line="573" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/06-SSH/SSh/src/com/Tooi/dao/impl/ProductDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#0#12#1" expanded="true" />
-            <element signature="e#713#714#0" expanded="true" />
-            <element signature="e#736#737#0" expanded="true" />
-            <element signature="e#784#785#0" expanded="true" />
-            <element signature="e#828#829#0" expanded="true" />
-            <element signature="e#885#886#0" expanded="true" />
-            <element signature="e#922#923#0" expanded="true" />
-            <element signature="e#979#980#0" expanded="true" />
-            <element signature="e#1016#1017#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/06-SSH/SSh/src/com/Tooi/dao/impl/CategoryDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#284#285#0" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#0#13#0" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/06-SSH/SSh/src/com/Tooi/action/ProductAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1728#1729#0" expanded="true" />
-            <element signature="e#1758#1759#0" expanded="true" />
-            <element signature="e#1805#1806#0" expanded="true" />
-            <element signature="e#1843#1844#0" expanded="true" />
-            <element signature="e#1890#1891#0" expanded="true" />
-            <element signature="e#1925#1926#0" expanded="true" />
-            <element signature="e#1989#1990#0" expanded="true" />
-            <element signature="e#2037#2038#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/06-SSH/SSh/src/com/Tooi/service/CategoryService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/06-SSH/SSh/src/com/Tooi/service/impl/ProductServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="89" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="89" />
+        <state relative-caret-position="190">
+          <caret line="18" column="89" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="89" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1226#1227#0" expanded="true" />
@@ -1514,27 +1052,413 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/06-SSH/SSh/src/com/Tooi/service/impl/CategoryServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/08-Springboot/src/main/resources/application-pro.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+        <state relative-caret-position="19">
+          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-Springboot/src/main/resources/application-dev.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://06c6913a-21e4-4857-8d2c-ec07cb9359ac/schema/06-SSH/table/category">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="31c5895b-63fe-4809-a081-4371a04fde0d">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-Springboot/src/main/webapp/WEB-INF/jsp/errorPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-Springboot/src/main/webapp/WEB-INF/jsp/hello.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.1.10.RELEASE/spring-data-jpa-2.1.10.RELEASE.jar!/org/springframework/data/jpa/repository/support/SimpleJpaRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3781">
+          <caret line="248" column="19" selection-start-line="248" selection-start-column="19" selection-end-line="248" selection-end-column="19" />
+          <folding>
+            <element signature="e#9923#9924#0" expanded="true" />
+            <element signature="e#10008#10009#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.1.10.RELEASE/spring-data-jpa-2.1.10.RELEASE.jar!/org/springframework/data/jpa/repository/JpaRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/06-SSH/SSh/src/com/Tooi/action/CategoryAction.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.1.10.RELEASE/spring-data-commons-2.1.10.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        <state relative-caret-position="292">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-SSH/SpringAndHibernate/src/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="45" column="49" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-Springboot/src/main/java/com/tooi/springboot/exception/GlobalExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#661#662#0" expanded="true" />
-            <element signature="e#696#697#0" expanded="true" />
-            <element signature="e#760#761#0" expanded="true" />
-            <element signature="e#808#809#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-Springboot/src/main/webapp/WEB-INF/jsp/editCategory.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-Springboot/src/main/java/com/tooi/springboot/config/PageHelperConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="95" selection-start-line="17" selection-start-column="95" selection-end-line="17" selection-end-column="95" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-dependencies/2.1.7.RELEASE/spring-boot-dependencies-2.1.7.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="1165" column="32" selection-start-line="1165" selection-start-column="19" selection-end-line="1165" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-Springboot/src/main/java/com/tooi/springboot/test/TestJPA.java" />
+    <entry file="das://06c6913a-21e4-4857-8d2c-ec07cb9359ac/schema/note_Java/table/product_">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="31c5895b-63fe-4809-a081-4371a04fde0d">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-Springboot/src/main/java/com/tooi/springboot/dao/CategoryDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-Springboot/src/main/java/com/tooi/springboot/pojo/Category_jpa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-Springboot/src/main/java/com/tooi/springboot/mapper/Category.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-Springboot/src/test/java/com/tooi/springboot/test/TestJPA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="51" column="43" lean-forward="true" selection-start-line="51" selection-start-column="43" selection-end-line="51" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-Springboot/src/main/webapp/uploaded/1567133356549u=508387608,2848974022&amp;fm=26&amp;gp=0.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-Springboot/src/main/webapp/uploaded/1567133351961u=508387608,2848974022&amp;fm=26&amp;gp=0.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-Springboot/src/main/java/com/tooi/springboot/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-Springboot/src/main/webapp/WEB-INF/jsp/listCategory.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-Springboot/src/main/webapp/js/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-Springboot/src/main/webapp/WEB-INF/jsp/category/edit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-Springboot/src/main/webapp/WEB-INF/jsp/category/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="12" column="74" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="74" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-Springboot/src/main/webapp/WEB-INF/jsp/showImg.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-Springboot/src/main/java/com/tooi/springboot/web/UploadController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="32" column="49" lean-forward="true" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#609#610#0" expanded="true" />
+            <element signature="e#644#645#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-Springboot/src/main/webapp/WEB-INF/jsp/uploadPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-Springboot/src/main/java/com/tooi/springboot/pojo/Category.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-Springboot/src/main/webapp/submit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://06c6913a-21e4-4857-8d2c-ec07cb9359ac/schema/note_Java/table/category">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="5678b16a-4176-4a4e-a15f-0f061f37a769">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-Springboot/src/main/java/com/tooi/springboot/web/CategoryController1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-161">
+          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-Springboot/src/main/webapp/getOne.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-Springboot/src/main/webapp/getMany.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-Springboot/src/main/java/com/tooi/springboot/web/CategoryController2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="50" column="53" selection-start-line="50" selection-start-column="53" selection-end-line="50" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1606#1607#0" expanded="true" />
+            <element signature="e#1681#1682#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-Springboot/src/main/webapp/js/thymeleaf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-Springboot/src/main/java/com/tooi/springboot/web/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="36" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-SSH/Struts2AndHibernate/src/com/Tooi/pojo/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-Springboot/src/main/resources/templates/helloThymeleaf.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="108" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="5" selection-end-column="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-Springboot/src/main/resources/templates/include.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="55" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-Springboot/src/main/java/com/tooi/springboot/pojo/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding>
+            <element signature="e#152#153#0" expanded="true" />
+            <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#238#239#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+            <element signature="e#468#469#0" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-Springboot/src/main/webapp/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-Springboot/src/main/java/com/tooi/springboot/web/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-Springboot/src/main/resources/templates/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="23" column="54" lean-forward="true" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-Springboot/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="9" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-Springboot/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="80" column="21" lean-forward="true" selection-start-line="68" selection-start-column="8" selection-end-line="80" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-Springboot/src/main/java/com/tooi/springboot/mapper/CategoryMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-Springboot/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1545,13 +1469,13 @@
         <settings>
           <artifact-editor>
             <show-content>
-              <type id="javaee-facet-resources" />
-              <type id="library" />
               <type id="artifact" />
               <type id="jpa-descriptors" />
+              <type id="javaee-facet-resources" />
+              <type id="library" />
             </show-content>
           </artifact-editor>
-          <last-edited>SSh:war exploded</last-edited>
+          <last-edited>08-Springboot:war</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1564,7 +1488,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Hibernate (06-SSH)|Hibernate</last-edited>
+          <last-edited>Web (08-Springboot)|Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1600,7 +1524,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Web|SSh</last-edited>
+          <last-edited>Web|08-Springboot</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

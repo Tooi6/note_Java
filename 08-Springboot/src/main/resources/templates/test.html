@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+    <link rel="stylesheet" type="text/css" media="all" href="../../webapp/css/style.css" th:href="@{/css/style.css}">
+    <script type="text/javascript" src="../../webapp/js/thymeleaf.js" th:src="@{/js/thymeleaf.js}"></script>
+    <style>
+        h2{
+            text-decoration: underline;
+            font-size:0.9em;
+            color:gray;
+        }
+    </style>
+</head>
+<body>
+
+<div class="showing date">
+    <h2>格式化日期</h2>
+    直接输出：${now}:
+    <p th:text="${now}"></p>
+    默认格式化：${#dates.format(now)}
+    <p th:text="${#dates.format(now)}"></p>
+    自定义格式化：${#dates.format(now,'yyyy-MM-dd HH:mm:ss')}
+    <p th:text="${#dates.format(now,'yyyy-MM-dd HH:mm:ss')}"></p>
+</div>
+
+<div class="showing">
+    <h2>遍历 radio</h2>
+    <input name="product" type="radio"
+           th:each="p:${products}"
+           th:text="${p.name}"
+           th:checked="${p.id==currentProduct.id}"/>
+</div>
+
+<div class="showing">
+    <h2>遍历 Select</h2>
+    <select size="1">
+        <option th:each="p:${products}"
+                th:value="${p.id}"
+                th:text="${p.name}"
+                th:selected="${p.id==currentProduct.id}">
+        </option>
+    </select>
+</div>
+
+<div class="showing">
+    <h2>带状态的遍历</h2>
+    <table>
+        <thead>
+            <tr>
+                <td>id</td>
+                <td>产品名称</td>
+                <td>价格</td>
+            </tr>
+        </thead>
+        <thead>
+            <tr th:each="p,status:${products}" th:class="${status.even}?'even':'odd'">
+                <td th:text="${status.index}"></td>
+                <td th:text="${p.id}"></td>
+                <td th:text="${p.name}"></td>
+                <td th:text="${p.price}"></td>
+            </tr>
+        </thead>
+    </table>
+</div>
+
+<div class="showing">
+    <h2>遍历</h2>
+    <table>
+        <thead>
+        <tr>
+            <td>id</td>
+            <td>产品名称</td>
+            <td>价格</td>
+        </tr>
+        </thead>
+        <thead>
+        <tr th:each="p:${products}">
+            <td th:text="${p.id}"></td>
+            <td th:text="${p.name}"></td>
+            <td th:text="${p.price}"></td>
+        </tr>
+        </thead>
+    </table>
+</div>
+
+<div class="showing">
+    <h2>条件判断</h2>
+    <p th:if="${testBoolean}">如果testBoolean是true，本句话就会显示</p>
+    <p th:if="${not testBoolean}">not 取反 如果testBoolean是true，本句话就不会显示</p>
+    <p th:unless="${testBoolean}">unless 如果testBoolean是true，本句话就不会显示</p>
+    <p th:text="${testBoolean}?'三相表达式 true':'三相表达式 false'"></p>
+</div>
+
+<div class="showing">
+    <h2>显示 转义和非转义的 html 文本</h2>
+    <p th:text="${htmlContent}" ></p>
+    <p th:utext="${htmlContent}" ></p>
+</div>
+
+<div class="showing">
+    <h2>显示对象以及对象属性</h2>
+    <p th:text="${currentProduct}" ></p>
+    <p th:text="${currentProduct.name}" ></p>
+    <p th:text="${currentProduct.getName()}" ></p>
+</div>
+
+<div class="showing" th:object="${currentProduct}">
+    <h2>*{}方式显示属性</h2>
+    <p th:text="*{name}" ></p>
+</div>
+
+<div class="showing">
+    <h2>算数运算</h2>
+    <p th:text="${currentProduct.price+500}" ></p>
+</div>
+<div class="showing">
+    <div th:replace="include::footer1"></div>
+    <div th:replace="include::footer2(2015,2019)"></div>
+</div>
+</body>
+</html>
