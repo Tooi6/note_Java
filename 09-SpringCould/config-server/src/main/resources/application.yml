@@ -6,7 +6,7 @@ spring:
       label: master
       server:
         git:
-          uri: https://github.com/how2j/springcloudConfig/
+          uri: https://github.com/Tooi6/note_Java/tree/master/09-SpringCould/springcloudConfig
           searchPaths: respo
 eureka:
   client:
