@@ -4,6 +4,7 @@
     <file type="web" url="file://$PROJECT_DIR$/03-SpringAndSpringMVC" />
     <file type="web" url="file://$PROJECT_DIR$/08-Springboot" />
     <file type="web" url="file://$PROJECT_DIR$/09-SpringCould/product-data-service" />
+    <file type="web" url="file://$PROJECT_DIR$/09-SpringCould/product-view-service-feign" />
     <file type="web" url="file://$PROJECT_DIR$/09-SpringCould/product-view-service-ribbon" />
   </component>
   <component name="MavenProjectsManager">

@@ -7,19 +7,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="product-data-service" />
         <module name="product-view-service-ribbon" />
-        <module name="03-SpringAndSpringMVC" />
         <module name="eureka-server" />
+        <module name="product-view-service-feign" />
+        <module name="config-server" />
         <module name="08-Springboot" />
+        <module name="03-SpringAndSpringMVC" />
+        <module name="product-data-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="03-SpringAndSpringMVC" target="1.8" />
+      <module name="03-SpringAndSpringMVC" target="1.5" />
       <module name="08-Springboot" target="1.8" />
       <module name="09-SpringCould" target="1.8" />
+      <module name="config-server" target="1.8" />
       <module name="eureka-server" target="1.8" />
       <module name="product-data-service" target="1.8" />
+      <module name="product-view-service-feign" target="1.8" />
       <module name="product-view-service-ribbon" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -27,8 +31,10 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="08-Springboot" options="-parameters" />
       <module name="09-SpringCould" options="-parameters" />
+      <module name="config-server" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
       <module name="product-data-service" options="-parameters" />
+      <module name="product-view-service-feign" options="-parameters" />
       <module name="product-view-service-ribbon" options="-parameters" />
     </option>
   </component>
