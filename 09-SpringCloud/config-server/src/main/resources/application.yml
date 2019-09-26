@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      label: master
+      server:
+        git:
+          uri: https://github.com/Tooi6/note_Java/
+          searchPaths: 09-SpringCould/springcloudConfig/respo
+          username: Tooi6
+          password: yzq!!1234
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

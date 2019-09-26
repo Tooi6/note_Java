@@ -9,8 +9,53 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c54c99c-29a6-4e75-9f1e-86ab5938b295" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/09-SpringCould/hystrix-dashboard/hystrix-dashboard.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-SpringCould/hystrix-dashboard/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-SpringCould/hystrix-dashboard/src/main/java/com/Tooi/springcloud/ProductServiceHystrixDashboardApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-SpringCould/hystrix-dashboard/src/main/java/com/Tooi/springcloud/util/AccessViewService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-SpringCould/hystrix-dashboard/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-SpringCould/product-view-service-feign/src/main/java/com/Tooi/springcloud/client/ProductClientFeignHystrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-SpringCould/product-view-service-feign/src/main/java/com/Tooi/springcloud/util/FreshConfigUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-SpringCould/product-view-service-feign/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-SpringCould/turibine/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-SpringCould/turibine/src/main/java/com/Tooi/springcloud/ProductServiceTurbineApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-SpringCould/turibine/src/main/java/com/Tooi/springcloud/util/AccessViewService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-SpringCould/turibine/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-SpringCould/turibine/turibine.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-SpringCould/zuul/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-SpringCould/zuul/src/main/java/com/Tooi/springcloud/ProductServiceZuulApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-SpringCould/zuul/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-SpringCould/zuul/zuul.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/webapp/WEB-INF/jsp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/webapp/WEB-INF/jsp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/webapp/WEB-INF/jsp/student.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/03-SpringAndSpringMVC/src/main/webapp/WEB-INF/jsp/student.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-Struts2AndSpringMVC/web/addProduct.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/05-Struts2AndSpringMVC/web/addProduct.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-Struts2AndSpringMVC/web/show.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/05-Struts2AndSpringMVC/web/show.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-SSH/SSh/web/category/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/06-SSH/SSh/web/category/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-SSH/SSh/web/product/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/06-SSH/SSh/web/product/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-SSH/Struts2AndHibernate/web/category/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/06-SSH/Struts2AndHibernate/web/category/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-SSH/Struts2AndHibernate/web/product/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/06-SSH/Struts2AndHibernate/web/product/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-Springboot/src/main/webapp/WEB-INF/jsp/category/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/08-Springboot/src/main/webapp/WEB-INF/jsp/category/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-Springboot/src/main/webapp/WEB-INF/jsp/listCategory.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/08-Springboot/src/main/webapp/WEB-INF/jsp/listCategory.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-SpringCould/09-SpringCould.iml" beforeDir="false" afterPath="$PROJECT_DIR$/09-SpringCould/09-SpringCould.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-SpringCould/config-server/config-server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/09-SpringCould/config-server/config-server.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/09-SpringCould/config-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/09-SpringCould/config-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09-SpringCould/springcloudConfig/repo/product-view-service-feign-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/09-SpringCould/springcloudConfig/respo/product-view-service-feign-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-SpringCould/eureka-server/eureka-server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/09-SpringCould/eureka-server/eureka-server.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-SpringCould/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/09-SpringCould/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-SpringCould/product-data-service/product-data-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/09-SpringCould/product-data-service/product-data-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-SpringCould/product-view-service-feign/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/09-SpringCould/product-view-service-feign/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-SpringCould/product-view-service-feign/product-view-service-feign.iml" beforeDir="false" afterPath="$PROJECT_DIR$/09-SpringCould/product-view-service-feign/product-view-service-feign.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-SpringCould/product-view-service-feign/src/main/java/com/Tooi/springcloud/ProductViewServiceFeignApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/09-SpringCould/product-view-service-feign/src/main/java/com/Tooi/springcloud/ProductViewServiceFeignApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-SpringCould/product-view-service-feign/src/main/java/com/Tooi/springcloud/client/ProductClientFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/09-SpringCould/product-view-service-feign/src/main/java/com/Tooi/springcloud/client/ProductClientFeign.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-SpringCould/product-view-service-feign/src/main/java/com/Tooi/springcloud/web/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/09-SpringCould/product-view-service-feign/src/main/java/com/Tooi/springcloud/web/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-SpringCould/product-view-service-feign/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/09-SpringCould/product-view-service-feign/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-SpringCould/product-view-service-feign/src/main/resources/template/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/09-SpringCould/product-view-service-feign/src/main/resources/templates/products.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-SpringCould/product-view-service-ribbon/product-view-service-ribbon.iml" beforeDir="false" afterPath="$PROJECT_DIR$/09-SpringCould/product-view-service-ribbon/product-view-service-ribbon.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-SpringCould/product-view-service-ribbon/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/09-SpringCould/product-view-service-ribbon/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-SpringCould/springcloudConfig/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/09-SpringCould/springcloudConfig/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".idea/" />
@@ -24,6 +69,9 @@
     <ignored path="$PROJECT_DIR$/09-SpringCould/product-view-service-ribbon/target/" />
     <ignored path="$PROJECT_DIR$/09-SpringCould/product-view-service-feign/target/" />
     <ignored path="$PROJECT_DIR$/09-SpringCould/config-server/target/" />
+    <ignored path="$PROJECT_DIR$/09-SpringCould/hystrix-dashboard/target/" />
+    <ignored path="$PROJECT_DIR$/09-SpringCould/turibine/target/" />
+    <ignored path="$PROJECT_DIR$/09-SpringCould/zuul/target/" />
     <manually-removed-from-ignored>
       <directory path=".idea/codeStyles/" />
     </manually-removed-from-ignored>
@@ -92,100 +140,50 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/09-SpringCould/eureka-server/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+            <state relative-caret-position="304">
+              <caret line="16" column="61" lean-forward="true" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/09-SpringCould/config-server/pom.xml">
+        <entry file="file://$PROJECT_DIR$/09-SpringCould/zuul/src/main/java/com/Tooi/springcloud/ProductServiceZuulApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+            <state relative-caret-position="171">
+              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/09-SpringCould/zuul/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/09-SpringCould/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="395">
+              <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/09-SpringCould/config-server/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/09-SpringCould/springcloudConfig/README.md">
+        <entry file="file://$PROJECT_DIR$/09-SpringCould/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="38">
-                <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+              <first_editor relative-caret-position="617">
+                <caret line="196" selection-start-line="196" selection-end-line="196" />
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/09-SpringCould/springcloudConfig/respo/product-view-service-feign-dev.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="33" selection-start-column="33" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/09-SpringCould/config-server/src/main/java/com/Tooi/springcloud/ConfigServerApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/09-SpringCould/product-data-service/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-806">
-              <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/09-SpringCould/product-view-service-feign/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/09-SpringCould/product-view-service-ribbon/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/09-SpringCould/product-view-service-feign/src/main/java/com/Tooi/springcloud/ProductViewServiceFeignApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="62" column="12" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2135#2136#0" expanded="true" />
-                <element signature="e#2179#2180#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -228,25 +226,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/08-Springboot/src/main/webapp/submit.html" />
-        <option value="$PROJECT_DIR$/08-Springboot/src/main/java/com/tooi/springboot/web/CategoryController1.java" />
-        <option value="$PROJECT_DIR$/08-Springboot/src/main/webapp/getOne.html" />
-        <option value="$PROJECT_DIR$/08-Springboot/src/main/webapp/getMany.html" />
-        <option value="$PROJECT_DIR$/08-Springboot/src/main/java/com/tooi/springboot/web/CategoryController2.java" />
-        <option value="$PROJECT_DIR$/08-Springboot/pom.xml" />
-        <option value="$PROJECT_DIR$/08-Springboot/src/main/java/com/tooi/springboot/web/HelloController.java" />
-        <option value="$PROJECT_DIR$/08-Springboot/src/main/webapp/css/style.css" />
-        <option value="$PROJECT_DIR$/08-Springboot/src/main/webapp/js/thymeleaf.js" />
-        <option value="$PROJECT_DIR$/08-Springboot/src/main/resources/templates/helloThymeleaf.html" />
-        <option value="$PROJECT_DIR$/08-Springboot/src/main/java/com/tooi/springboot/pojo/Product.java" />
-        <option value="$PROJECT_DIR$/08-Springboot/src/main/resources/templates/include.html" />
-        <option value="$PROJECT_DIR$/08-Springboot/src/main/java/com/tooi/springboot/web/TestController.java" />
-        <option value="$PROJECT_DIR$/08-Springboot/src/main/resources/templates/test.html" />
-        <option value="$PROJECT_DIR$/08-Springboot/README.md" />
-        <option value="$PROJECT_DIR$/08-Springboot/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/09-SpringCould/eureka-server/pom.xml" />
         <option value="$PROJECT_DIR$/09-SpringCould/eureka-server/src/main/java/EurekaServerApplication.java" />
-        <option value="$PROJECT_DIR$/09-SpringCould/pom.xml" />
         <option value="$PROJECT_DIR$/09-SpringCould/product-data-service/src/main/java/com/Tooi/springcloud/pojo.java" />
         <option value="$PROJECT_DIR$/09-SpringCould/product-data-service/src/main/java/com/Tooi/springcloud/pojo/Product.java" />
         <option value="$PROJECT_DIR$/09-SpringCould/product-data-service/src/main/java/com/Tooi/springcloud/service/ProductService.java" />
@@ -260,25 +241,42 @@
         <option value="$PROJECT_DIR$/09-SpringCould/eureka-server/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/09-SpringCould/eureka-server/src/main/java/com/Tooi/springcloud/EurekaServerApplication.java" />
         <option value="$PROJECT_DIR$/09-SpringCould/product-view-service-ribbon/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/09-SpringCould/README.md" />
         <option value="$PROJECT_DIR$/09-SpringCould/product-view-service-feign/src/main/java/com/Tooi/springcloud/pojo/Product.java" />
-        <option value="$PROJECT_DIR$/09-SpringCould/product-view-service-feign/src/main/java/com/Tooi/springcloud/client/ProductClientFeign.java" />
         <option value="$PROJECT_DIR$/09-SpringCould/product-view-service-feign/src/main/java/com/Tooi/springcloud/service/ProductService.java" />
         <option value="$PROJECT_DIR$/09-SpringCould/product-view-service-feign/src/main/resources/templates/products.html" />
-        <option value="$PROJECT_DIR$/09-SpringCould/product-view-service-feign/src/main/java/com/Tooi/springcloud/web/ProductController.java" />
-        <option value="$PROJECT_DIR$/09-SpringCould/product-view-service-feign/src/main/resources/template/products.html" />
-        <option value="$PROJECT_DIR$/09-SpringCould/product-data-service/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/09-SpringCould/product-view-service-feign/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/09-SpringCould/product-data-service/src/main/java/com/Tooi/springcloud/ProductDataServiceApplication.java" />
-        <option value="$PROJECT_DIR$/09-SpringCould/product-view-service-feign/src/main/java/com/Tooi/springcloud/ProductViewServiceFeignApplication.java" />
         <option value="$PROJECT_DIR$/09-SpringCould/product-data-service/pom.xml" />
-        <option value="$PROJECT_DIR$/09-SpringCould/product-view-service-feign/pom.xml" />
         <option value="$PROJECT_DIR$/09-SpringCould/product-view-service-ribbon/pom.xml" />
-        <option value="$PROJECT_DIR$/09-SpringCould/config-server/pom.xml" />
         <option value="$PROJECT_DIR$/09-SpringCould/config-server/src/main/java/com/Tooi/springcloud/ConfigServerApplication.java" />
-        <option value="$PROJECT_DIR$/09-SpringCould/springcloudConfig/README.md" />
         <option value="$PROJECT_DIR$/09-SpringCould/springcloudConfig/repo/product-view-service-feign-dev.properties" />
+        <option value="$PROJECT_DIR$/09-SpringCould/springcloudConfig/README.md" />
+        <option value="$PROJECT_DIR$/respo/product-view-service-feign-dev.properties" />
         <option value="$PROJECT_DIR$/09-SpringCould/config-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/09-SpringCould/product-view-service-feign/src/main/resources/template/products.html" />
+        <option value="$PROJECT_DIR$/09-SpringCould/product-view-service-feign/src/main/java/com/Tooi/springcloud/web/ProductController.java" />
+        <option value="$PROJECT_DIR$/09-SpringCould/product-view-service-feign/src/main/java/com/Tooi/springcloud/util/FreshConfigUtil.java" />
+        <option value="$PROJECT_DIR$/09-SpringCould/config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/09-SpringCould/pom.xml" />
+        <option value="$PROJECT_DIR$/09-SpringCould/product-view-service-feign/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/09-SpringCould/product-view-service-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/09-SpringCould/product-view-service-feign/src/main/java/com/Tooi/springcloud/client/ProductClientFeign.java" />
+        <option value="$PROJECT_DIR$/09-SpringCould/product-view-service-feign/src/main/java/com/Tooi/springcloud/client/ProductClientFeignHystrix.java" />
+        <option value="$PROJECT_DIR$/09-SpringCould/product-view-service-feign/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/09-SpringCould/hystrix-dashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/09-SpringCould/hystrix-dashboard/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/09-SpringCould/product-view-service-feign/src/main/java/com/Tooi/springcloud/ProductViewServiceFeignApplication.java" />
+        <option value="$PROJECT_DIR$/09-SpringCould/hystrix-dashboard/src/main/java/com/Tooi/util/AccessViewService.java" />
+        <option value="$PROJECT_DIR$/09-SpringCould/hystrix-dashboard/src/main/java/com/Tooi/springcloud/util/AccessViewService.java" />
+        <option value="$PROJECT_DIR$/09-SpringCould/hystrix-dashboard/src/main/java/com/Tooi/springcloud/ProductServiceHystrixDashboardApplication.java" />
+        <option value="$PROJECT_DIR$/09-SpringCould/turibine/pom.xml" />
+        <option value="$PROJECT_DIR$/09-SpringCould/turibine/src/main/java/com/Tooi/springcloud/ProductServiceTurbineApplication.java" />
+        <option value="$PROJECT_DIR$/09-SpringCould/turibine/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/09-SpringCould/turibine/src/main/java/com/Tooi/springcloud/util/AccessViewService.java" />
+        <option value="$PROJECT_DIR$/09-SpringCould/zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/09-SpringCould/zuul/src/main/java/com/Tooi/springcloud/ProductServiceZuulApplication.java" />
+        <option value="$PROJECT_DIR$/09-SpringCould/product-data-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/09-SpringCould/zuul/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/09-SpringCould/README.md" />
       </list>
     </option>
   </component>
@@ -308,7 +306,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="952" />
     <option name="width" value="977" />
     <option name="height" value="1038" />
@@ -323,7 +321,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -341,12 +338,19 @@
               <item name="note_Java" type="b2602c69:ProjectViewProjectNode" />
               <item name="note_Java" type="462c0819:PsiDirectoryNode" />
               <item name="09-SpringCould" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloudConfig" type="462c0819:PsiDirectoryNode" />
+              <item name="config-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="note_Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="note_Java" type="462c0819:PsiDirectoryNode" />
+              <item name="09-SpringCould" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -362,7 +366,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../note_algorithm" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FirstRepository" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -372,23 +376,23 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\work\IdeaProjects\note_Java\08-Springboot\src\main\webapp" />
-      <recent name="D:\work\IdeaProjects\note_Java\08-Springboot\src\main\resources\static" />
-      <recent name="D:\work\IdeaProjects\note_Java\08-Springboot\src\main\webapp\js" />
-      <recent name="D:\work\IdeaProjects\note_Java\08-Springboot\src\main\webapp\WEB-INF\jsp" />
-      <recent name="D:\work\IdeaProjects\note_Java\06-SSH\SSh\web\WEB-INF\lib" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.Tooi.test" />
-      <recent name="com.Tooi.Spring_Transaction" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\work\IdeaProjects\note_Java\06-SSH\SSh\web" />
       <recent name="D:\work\IdeaProjects\note_Java\06-SSH\SpringAndHibernate\lib" />
       <recent name="D:\work\IdeaProjects\note_Java\06-SSH\SpringAndHibernate\src" />
       <recent name="D:\work\IdeaProjects\note_Java\06-SSH\Struts2AndHibernate\web" />
       <recent name="D:\work\IdeaProjects\note_Java\06-SSH\Struts2AndHibernate\src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.Tooi.test" />
+      <recent name="com.Tooi.Spring_Transaction" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\work\IdeaProjects\note_Java\08-Springboot\src\main\webapp" />
+      <recent name="D:\work\IdeaProjects\note_Java\08-Springboot\src\main\resources\static" />
+      <recent name="D:\work\IdeaProjects\note_Java\08-Springboot\src\main\webapp\js" />
+      <recent name="D:\work\IdeaProjects\note_Java\08-Springboot\src\main\webapp\WEB-INF\jsp" />
+      <recent name="D:\work\IdeaProjects\note_Java\06-SSH\SSh\web\WEB-INF\lib" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -403,19 +407,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ProductViewServiceFeignApplication">
-    <configuration name="TestJPA.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="08-Springboot" />
+  <component name="RunManager" selected="Spring Boot.ProductServiceZuulApplication">
+    <configuration name="AccessViewService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Tooi.springcloud.util.AccessViewService" />
+      <module name="turibine" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tooi.springboot.test.*" />
+          <option name="PATTERN" value="com.Tooi.springcloud.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.tooi.springboot.test" />
-      <option name="MAIN_CLASS_NAME" value="com.tooi.springboot.test.TestJPA" />
-      <option name="METHOD_NAME" value="test3" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -431,34 +432,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="eureka-server" />
+    <configuration name="ProductServiceHystrixDashboardApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="hystrix-dashboard" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.Tooi.springcloud.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Tooi.springcloud.EurekaServerApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Tooi.springcloud.ProductServiceHystrixDashboardApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductDataServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" temporary="true" nameIsGenerated="true">
-      <module name="product-data-service" />
+    <configuration name="ProductServiceTurbineApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="turibine" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.Tooi.springcloud.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Tooi.springcloud.ProductDataServiceApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Tooi.springcloud.ProductServiceTurbineApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductViewServiceFeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductServiceZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="zuul" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Tooi.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Tooi.springcloud.ProductServiceZuulApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductViewServiceFeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" temporary="true" nameIsGenerated="true">
       <module name="product-view-service-feign" />
       <extension name="coverage">
         <pattern>
@@ -467,19 +480,7 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.Tooi.springcloud.ProductViewServiceFeignApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProductViewServiceRibbonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="product-view-service-ribbon" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Tooi.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Tooi.springcloud.ProductViewServiceRibbonApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -635,23 +636,26 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestJPA.test3" />
       <item itemvalue="Spring Boot.Application" />
-      <item itemvalue="Spring Boot.EurekaServerApplication" />
-      <item itemvalue="Spring Boot.ProductDataServiceApplication" />
-      <item itemvalue="Spring Boot.ProductViewServiceRibbonApplication" />
-      <item itemvalue="Tomcat Server.Tomcat 8.5.43" />
       <item itemvalue="Spring Boot.ProductViewServiceFeignApplication" />
+      <item itemvalue="Spring Boot.ProductServiceTurbineApplication" />
+      <item itemvalue="Spring Boot.ProductServiceHystrixDashboardApplication" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.43" />
+      <item itemvalue="Application.AccessViewService" />
+      <item itemvalue="Spring Boot.ProductServiceZuulApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ProductServiceZuulApplication" />
+        <item itemvalue="Application.AccessViewService" />
         <item itemvalue="Spring Boot.ProductViewServiceFeignApplication" />
-        <item itemvalue="Spring Boot.ProductDataServiceApplication" />
-        <item itemvalue="Spring Boot.EurekaServerApplication" />
-        <item itemvalue="Spring Boot.ProductViewServiceRibbonApplication" />
-        <item itemvalue="JUnit.TestJPA.test3" />
+        <item itemvalue="Spring Boot.ProductServiceHystrixDashboardApplication" />
+        <item itemvalue="Spring Boot.ProductServiceTurbineApplication" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SpringBeansView">
+    <option name="beanDetailsProportion" value="0.3" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -690,7 +694,8 @@
       <workItem from="1567687666200" duration="1059000" />
       <workItem from="1569313485629" duration="10446000" />
       <workItem from="1569336816098" duration="317000" />
-      <workItem from="1569406617732" duration="6240000" />
+      <workItem from="1569406617732" duration="10361000" />
+      <workItem from="1569483830618" duration="15535000" />
     </task>
     <task id="LOCAL-00001" summary="8-13,初始化项目，根目录添加README.md">
       <created>1565658773463</created>
@@ -811,7 +816,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569413789064</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="9-25，09-SpringCloud，config-service,edit">
+      <created>1569413989618</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1569413989618</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -847,7 +859,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="212968000" />
+    <option name="totallyTimeSpent" value="232624000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -859,9 +871,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="762" y="0" width="781" height="830" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.50484097" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24061662" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -873,12 +886,12 @@
       <window_info anchor="bottom" id="Database Console" order="0" weight="0.31518623" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.3243626" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.60924935" weight="0.65186244" />
+      <window_info anchor="bottom" content_ui="combo" id="Run" order="3" sideWeight="0.60924935" weight="0.53966004" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.47308782" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32719547" />
-      <window_info anchor="bottom" id="Spring" order="8" weight="0.32719547" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.32294616" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.39075068" side_tool="true" weight="0.20113315" />
@@ -900,7 +913,7 @@
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.15884718" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.50484097" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24061662" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -912,12 +925,12 @@
       <window_info anchor="bottom" id="Database Console" order="0" weight="0.31518623" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.3243626" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.60924935" weight="0.6529745" />
+      <window_info anchor="bottom" content_ui="combo" id="Run" order="3" sideWeight="0.60924935" weight="0.54011464" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.47308782" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32719547" />
-      <window_info anchor="bottom" id="Spring" order="8" weight="0.32719547" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.32294616" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.39075068" side_tool="true" weight="0.20113315" />
@@ -1008,175 +1021,14 @@
     <MESSAGE value="8-30，08-Springboot，完结" />
     <MESSAGE value="9-24，SpringCould，demo" />
     <MESSAGE value="9-25，09-SpringCloud，config-service" />
-    <option name="LAST_COMMIT_MESSAGE" value="9-25，09-SpringCloud，config-service" />
+    <MESSAGE value="9-25，09-SpringCloud，config-service,edit" />
+    <option name="LAST_COMMIT_MESSAGE" value="9-25，09-SpringCloud，config-service,edit" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/08-Springboot/src/main/webapp/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/08-Springboot/src/main/java/com/tooi/springboot/mapper/CategoryMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/08-Springboot/src/main/java/com/tooi/springboot/pojo/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-          <folding>
-            <element signature="e#152#153#0" expanded="true" />
-            <element signature="e#177#178#0" expanded="true" />
-            <element signature="e#238#239#0" expanded="true" />
-            <element signature="e#269#270#0" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#336#337#0" expanded="true" />
-            <element signature="e#368#369#0" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#427#428#0" expanded="true" />
-            <element signature="e#468#469#0" expanded="true" />
-            <element signature="e#502#503#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/08-Springboot/src/main/webapp/uploaded/1567156313602pic.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/08-Springboot/src/main/resources/templates/helloThymeleaf.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="108" selection-start-line="4" selection-start-column="4" selection-end-line="5" selection-end-column="108" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/08-Springboot/src/main/resources/templates/include.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="55" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/08-Springboot/src/main/java/com/tooi/springboot/web/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/08-Springboot/src/main/java/com/tooi/springboot/web/CategoryController2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="50" column="53" selection-start-line="50" selection-start-column="53" selection-end-line="50" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/08-Springboot/src/main/java/com/tooi/springboot/web/CategoryController1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/08-Springboot/src/main/java/com/tooi/springboot/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/08-Springboot/src/main/resources/templates/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="98" selection-start-line="6" selection-start-column="70" selection-end-line="6" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/08-Springboot/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="171">
-            <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/08-Springboot/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09-SpringCould/src/main/java/com/Tooi/App.java" />
-    <entry file="file://$PROJECT_DIR$/08-Springboot/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09-SpringCould/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="33" column="17" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09-SpringCould/product-data-service/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09-SpringCould/product-data-service/src/main/java/com/Tooi/springcloud/pojo.java" />
-    <entry file="file://$PROJECT_DIR$/09-SpringCould/product-data-service/src/main/java/com/Tooi/springcloud/pojo/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="35" column="52" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
-          <folding>
-            <element signature="e#151#152#0" expanded="true" />
-            <element signature="e#176#177#0" expanded="true" />
-            <element signature="e#209#210#0" expanded="true" />
-            <element signature="e#237#238#0" expanded="true" />
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
-            <element signature="e#335#336#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-            <element signature="e#463#464#0" expanded="true" />
-            <element signature="e#497#498#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/09-SpringCould/product-data-service/src/main/java/com/Tooi/springcloud/service/ProductService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -1224,26 +1076,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" column="17" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09-SpringCould/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="243">
-            <caret line="78" column="14" selection-start-line="78" selection-start-column="14" selection-end-line="78" selection-end-column="14" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09-SpringCould/eureka-server/src/main/java/com/Tooi/springcloud/EurekaServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1321,30 +1153,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/09-SpringCould/product-view-service-feign/src/main/java/com/Tooi/springcloud/web/ProductController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/09-SpringCould/product-view-service-ribbon/src/main/java/com/Tooi/springcloud/client/ProductClientRibbon.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
           <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09-SpringCould/product-view-service-feign/src/main/java/com/Tooi/springcloud/client/ProductClientFeign.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" selection-start-line="8" selection-end-line="13" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1361,27 +1173,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/09-SpringCould/product-data-service/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09-SpringCould/product-view-service-feign/src/main/resources/template/products.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="41" column="7" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09-SpringCould/product-view-service-feign/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/09-SpringCould/product-data-service/src/main/java/com/Tooi/springcloud/ProductDataServiceApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="501">
@@ -1394,18 +1185,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/09-SpringCould/product-view-service-feign/src/main/java/com/Tooi/springcloud/ProductViewServiceFeignApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="62" column="12" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2135#2136#0" expanded="true" />
-            <element signature="e#2179#2180#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/09-SpringCould/product-data-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-806">
@@ -1413,61 +1192,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/09-SpringCould/product-view-service-feign/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09-SpringCould/product-view-service-ribbon/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09-SpringCould/eureka-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09-SpringCould/config-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09-SpringCould/config-server/src/main/java/com/Tooi/springcloud.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="26" lean-forward="true" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09-SpringCould/config-server/src/main/java/com/Tooi/springcloud/ConfigServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09-SpringCould/springcloudConfig/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="38">
-            <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/09-SpringCould/config-server/src/main/java/com/Tooi/springcloud.java" />
     <entry file="file://$PROJECT_DIR$/09-SpringCould/springcloudConfig/respo/product-view-service-feign-dev.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1475,10 +1200,273 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/09-SpringCould/springcloudConfig/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="57">
+            <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.0.0.RELEASE/spring-cloud-commons-2.0.0.RELEASE.jar!/org/springframework/cloud/client/CommonsClientAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="42" column="27" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/respo/product-view-service-feign-dev.properties" />
+    <entry file="file://$PROJECT_DIR$/09-SpringCould/product-view-service-ribbon/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09-SpringCould/product-view-service-feign/src/main/java/com/Tooi/springcloud/web/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09-SpringCould/config-server/src/main/java/com/Tooi/springcloud/ConfigServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09-SpringCould/config-server/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/09-SpringCould/config-server/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09-SpringCould/product-view-service-feign/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09-SpringCould/product-view-service-feign/src/main/resources/templates/products.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09-SpringCould/product-view-service-feign/src/main/java/com/Tooi/springcloud/util/FreshConfigUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09-SpringCould/config-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="50" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09-SpringCould/product-view-service-feign/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="60" column="21" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09-SpringCould/product-view-service-feign/src/main/java/com/Tooi/springcloud/client/ProductClientFeign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09-SpringCould/product-view-service-feign/src/main/java/com/Tooi/springcloud/client/ProductClientFeignHystrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="68" selection-start-line="8" selection-start-column="68" selection-end-line="8" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09-SpringCould/product-view-service-feign/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09-SpringCould/hystrix-dashboard/src/main/java/com/Tooi/springcloud.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09-SpringCould/hystrix-dashboard/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09-SpringCould/hystrix-dashboard/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09-SpringCould/hystrix-dashboard/src/main/java/com/Tooi/springcloud/util/AccessViewService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09-SpringCould/turibine/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="610">
+          <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09-SpringCould/turibine/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09-SpringCould/eureka-server/src/main/java/com/Tooi/springcloud/EurekaServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09-SpringCould/hystrix-dashboard/src/main/java/com/Tooi/springcloud/ProductServiceHystrixDashboardApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09-SpringCould/product-view-service-feign/src/main/java/com/Tooi/springcloud/ProductViewServiceFeignApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09-SpringCould/turibine/src/main/java/com/Tooi/springcloud/ProductServiceTurbineApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09-SpringCould/turibine/src/main/java/com/Tooi/springcloud/util/AccessViewService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09-SpringCould/zuul/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09-SpringCould/product-data-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09-SpringCould/zuul/src/main/java/com/Tooi/springcloud/ProductServiceZuulApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09-SpringCould/zuul/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09-SpringCould/eureka-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="61" lean-forward="true" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09-SpringCould/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09-SpringCould/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="617">
+            <caret line="196" selection-start-line="196" selection-end-line="196" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

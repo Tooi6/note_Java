@@ -7,16 +7,19 @@
       <module fileurl="file://$PROJECT_DIR$/05-Struts2AndSpringMVC/05-Struts2AndSpringMVC.iml" filepath="$PROJECT_DIR$/05-Struts2AndSpringMVC/05-Struts2AndSpringMVC.iml" />
       <module fileurl="file://$PROJECT_DIR$/06-SSH/06-SSH.iml" filepath="$PROJECT_DIR$/06-SSH/06-SSH.iml" />
       <module fileurl="file://$PROJECT_DIR$/08-Springboot/08-Springboot.iml" filepath="$PROJECT_DIR$/08-Springboot/08-Springboot.iml" />
-      <module fileurl="file://$PROJECT_DIR$/09-SpringCould/09-SpringCould.iml" filepath="$PROJECT_DIR$/09-SpringCould/09-SpringCould.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09-SpringCloud/09-SpringCloud.iml" filepath="$PROJECT_DIR$/09-SpringCloud/09-SpringCloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/06-SSH/SSh/SSh.iml" filepath="$PROJECT_DIR$/06-SSH/SSh/SSh.iml" />
       <module fileurl="file://$PROJECT_DIR$/06-SSH/SpringAndHibernate/SpringAndHibernate.iml" filepath="$PROJECT_DIR$/06-SSH/SpringAndHibernate/SpringAndHibernate.iml" />
       <module fileurl="file://$PROJECT_DIR$/06-SSH/Struts2AndHibernate/Struts2AndHibernate.iml" filepath="$PROJECT_DIR$/06-SSH/Struts2AndHibernate/Struts2AndHibernate.iml" />
-      <module fileurl="file://$PROJECT_DIR$/09-SpringCould/config-server/config-server.iml" filepath="$PROJECT_DIR$/09-SpringCould/config-server/config-server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/09-SpringCould/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/09-SpringCould/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09-SpringCloud/config-server/config-server.iml" filepath="$PROJECT_DIR$/09-SpringCloud/config-server/config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09-SpringCloud/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/09-SpringCloud/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09-SpringCloud/hystrix-dashboard/hystrix-dashboard.iml" filepath="$PROJECT_DIR$/09-SpringCloud/hystrix-dashboard/hystrix-dashboard.iml" />
       <module fileurl="file://$PROJECT_DIR$/note_Java.iml" filepath="$PROJECT_DIR$/note_Java.iml" />
-      <module fileurl="file://$PROJECT_DIR$/09-SpringCould/product-data-service/product-data-service.iml" filepath="$PROJECT_DIR$/09-SpringCould/product-data-service/product-data-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/09-SpringCould/product-view-service-feign/product-view-service-feign.iml" filepath="$PROJECT_DIR$/09-SpringCould/product-view-service-feign/product-view-service-feign.iml" />
-      <module fileurl="file://$PROJECT_DIR$/09-SpringCould/product-view-service-ribbon/product-view-service-ribbon.iml" filepath="$PROJECT_DIR$/09-SpringCould/product-view-service-ribbon/product-view-service-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09-SpringCloud/product-data-service/product-data-service.iml" filepath="$PROJECT_DIR$/09-SpringCloud/product-data-service/product-data-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09-SpringCloud/product-view-service-feign/product-view-service-feign.iml" filepath="$PROJECT_DIR$/09-SpringCloud/product-view-service-feign/product-view-service-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09-SpringCloud/product-view-service-ribbon/product-view-service-ribbon.iml" filepath="$PROJECT_DIR$/09-SpringCloud/product-view-service-ribbon/product-view-service-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09-SpringCloud/turibine/turibine.iml" filepath="$PROJECT_DIR$/09-SpringCloud/turibine/turibine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09-SpringCloud/zuul/zuul.iml" filepath="$PROJECT_DIR$/09-SpringCloud/zuul/zuul.iml" />
     </modules>
   </component>
 </project>

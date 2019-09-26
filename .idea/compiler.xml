@@ -8,10 +8,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="product-view-service-ribbon" />
+        <module name="zuul" />
         <module name="eureka-server" />
         <module name="product-view-service-feign" />
         <module name="config-server" />
+        <module name="hystrix-dashboard" />
         <module name="08-Springboot" />
+        <module name="turibine" />
         <module name="03-SpringAndSpringMVC" />
         <module name="product-data-service" />
       </profile>
@@ -19,23 +22,29 @@
     <bytecodeTargetLevel>
       <module name="03-SpringAndSpringMVC" target="1.5" />
       <module name="08-Springboot" target="1.8" />
-      <module name="09-SpringCould" target="1.8" />
+      <module name="09-SpringCloud" target="1.8" />
       <module name="config-server" target="1.8" />
       <module name="eureka-server" target="1.8" />
+      <module name="hystrix-dashboard" target="1.8" />
       <module name="product-data-service" target="1.8" />
       <module name="product-view-service-feign" target="1.8" />
       <module name="product-view-service-ribbon" target="1.8" />
+      <module name="turibine" target="1.8" />
+      <module name="zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="08-Springboot" options="-parameters" />
-      <module name="09-SpringCould" options="-parameters" />
+      <module name="09-SpringCloud" options="-parameters" />
       <module name="config-server" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
+      <module name="hystrix-dashboard" options="-parameters" />
       <module name="product-data-service" options="-parameters" />
       <module name="product-view-service-feign" options="-parameters" />
       <module name="product-view-service-ribbon" options="-parameters" />
+      <module name="turibine" options="-parameters" />
+      <module name="zuul" options="-parameters" />
     </option>
   </component>
 </project>

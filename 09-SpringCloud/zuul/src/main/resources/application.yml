@@ -1,0 +1,15 @@
+zuul:
+  routes:
+    api-a:
+      path: /api-data/**
+      serviceId: PRODUCT-DATA-SERVICE
+    api-b:
+      path: /api-view/**
+      serviceId: PRODUCT-VIEW-SERVICE-FEIGN
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+ribbon:
+  ReadTimeout: 50000
+  ConnectTimeout: 50000

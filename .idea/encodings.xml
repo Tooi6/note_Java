@@ -2,11 +2,14 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/08-Springboot" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/09-SpringCould" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/09-SpringCould/config-server" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/09-SpringCould/eureka-server" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/09-SpringCould/product-data-service" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/09-SpringCould/product-view-service-feign" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/09-SpringCould/product-view-service-ribbon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/09-SpringCloud" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/09-SpringCloud/config-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/09-SpringCloud/eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/09-SpringCloud/hystrix-dashboard" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/09-SpringCloud/product-data-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/09-SpringCloud/product-view-service-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/09-SpringCloud/product-view-service-ribbon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/09-SpringCloud/turibine" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/09-SpringCloud/zuul" charset="UTF-8" />
   </component>
 </project>
